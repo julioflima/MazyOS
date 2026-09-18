@@ -1,0 +1,37 @@
+{
+  "titulo": [
+    "O rendimento",
+    "paga a",
+    "parcela"
+  ],
+  "subtitulo": "Sobre um arranjo em que o dinheiro trabalha duas vezes →",
+  "busca": "growing stacks of coins investment chart",
+  "tags": [
+    "alavancagem",
+    "rendafixa"
+  ],
+  "slides": [
+    [
+      "Existe uma operação que parece complicada de longe e é simples de perto. Ela usa o mesmo dinheiro para duas coisas ao mesmo tempo.",
+      "Vale acompanhar devagar."
+    ],
+    [
+      "Uma carta de um milhão é contemplada. Em vez de gastar o valor de imediato, ele vai para uma aplicação de renda fixa, rendendo todo mês.",
+      "<b>Achamos que dinheiro só serve depois de gasto, e ele rende justamente enquanto espera.</b>"
+    ],
+    [
+      "O rendimento dessa aplicação paga a parcela do próprio consórcio. O que sobra é reaplicado, e o montante segue crescendo sozinho.",
+      "Em finanças isso se chama carrego: quando o ativo cobre o custo de mantê-lo."
+    ],
+    [
+      "No fim do período, a pessoa tem o valor da carta, o patrimônio original intacto, e pagou as parcelas sem tirar dinheiro do bolso.",
+      "Não é truque. É o resultado de não ter deixado o dinheiro parado."
+    ],
+    [
+      "Se isso parece coisa de quem tem muito, o mecanismo é o mesmo em qualquer escala.",
+      "O que muda é o tamanho dos números — e nunca foi o tamanho deles que decidiu quem entende a lógica."
+    ]
+  ],
+  "logo": "topo",
+  "capa": "07-pexels.jpg"
+}

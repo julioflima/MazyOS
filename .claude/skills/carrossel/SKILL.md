@@ -117,6 +117,53 @@ Antes de definir a capa, considerar a **última capa publicada** pra alternar:
 
 Se o usuário não souber qual foi a última, perguntar.
 
+### Os dois tipos de carrossel (Multiplic)
+
+Antes de escrever o texto, definir a qual tipo o carrossel pertence — a
+diferença está no bloco de CTA final. Ver
+`identidade/referencias/carrossel-estilo-brunobarbosz/cta-tipos.md`.
+
+- **Tipo 1 — rede da Izabel:** CTA de ensinar/responder/entregar algo sobre
+  consórcio. Palavra-chave de comentário: `SONHO`. Texto em `cta-sonho.md`.
+- **Tipo 2 — distribuição:** CTA de recrutamento de criadores. Palavra-chave
+  de comentário: `INFLUENCER`. Texto fixo em `cta-influencer.md`.
+
+Todo carrossel termina com um bloco fixo de **2 slides** (convite + CTA), no
+tipo que se aplicar. Se o tipo não estiver claro no pedido, perguntar.
+
+**Nunca desenhar botão/pill no CTA.** Carrossel é imagem estática, não dá pra
+clicar — a palavra-chave entra como elemento tipográfico em dourado, e o texto
+sugere ("deixa essa palavra nos comentários") em vez de mandar.
+
+### Capa com foto histórica (estética Lord)
+
+**Todo carrossel abre com capa de foto** (Julio, 18/09/26) — sem exceção. A
+foto é minerada pro tema daquele carrossel. Cerca de 10% vão inteiros em
+estilo editorial (template ainda não construído).
+Ver `identidade/referencias/carrossel-estilo-brunobarbosz/capa-estilo-lord.md`.
+
+Pra minerar a foto da capa:
+
+```bash
+node scripts/minerar-imagens.js "termo em inglês" --dry     # só lista
+node scripts/minerar-imagens.js "termo em inglês"           # baixa + régua
+```
+
+Na capa **não se cita o produto**: a palavra "consórcio" não aparece no título
+nem no subtítulo da capa. A peça não pode se entregar como propaganda antes de
+ser lida. Na capa **não entra header de Instagram** (avatar/@/selo) — só o logo, que
+alterna entre topo e rodapé a cada carrossel. O header de tweet começa no
+slide 02.
+
+Só acervo com uso comercial liberado. Nunca baixar do perfil do Lord nem de
+banco pago. O `creditos.json` gerado tem que acompanhar a peça — CC BY e
+CC BY-SA exigem atribuição na publicação.
+
+### Quebra de parágrafo
+
+Todo slide de conteúdo tem **no mínimo dois parágrafos** com respiro entre
+eles. Bloco único de 5+ linhas é proibido — cansa e faz pular o slide.
+
 ### Linguagem (regra crítica)
 
 Seguir `_memoria/preferencias.md`. Em geral: frases naturais, sem jargão de marketing, sem corporativês. O público real raramente fala "ticket médio", "performance", "B2B". Falar como ele fala.

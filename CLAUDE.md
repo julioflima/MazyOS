@@ -113,3 +113,75 @@ Quando o usuário pedir skill nova:
 4. Se a skill precisar de arquivos de apoio (templates, exemplos),
    criar dentro da pasta da skill
 5. Seguir o fluxo da skill-creator nativa do Claude Code
+
+---
+
+# Multiplic — MazyOS
+
+> Perfil: criador solo / negócio pequeno. A operação gira em torno de
+> conteúdo pra atrair influenciadores parceiros e gerar leads de
+> consórcio.
+
+## O que é esse workspace
+
+Operação de conteúdo e negócio da Multiplic — corretora de seguros
+focada em consórcios. Aqui se produz o conteúdo que atrai clientes
+diretos e, principalmente, influenciadores parceiros pro modelo de
+indicação via cupom.
+
+**Estrutura de pastas:**
+- `_memoria/` — quem é a Multiplic, como fala, o que tá em foco
+- `identidade/` — cores, fontes, logo, pattern da marca
+- `marketing/` — conteúdo, SEO, campanhas (saída das skills)
+- `saidas/` — análises, emails, documentos pontuais
+- `tarefas.md` — o que tá em jogo agora
+
+## Quem é
+
+Multiplic — corretora de seguros focada na venda de consórcios de todos
+os tipos (imóvel, veículo, sala comercial, etc.). Equipe: Izabel (CEO),
+Isadora (Backoffice), Julio (Engenheiro), + 3 parceiros indiretos.
+
+## O que produz
+
+- Carrosséis educativos sobre consórcio pro Instagram
+- Conteúdo em formato stories pra academia de formação de influencers
+- Atendimento e fechamento direto de consórcio com clientes finais
+
+## Modelo de negócio em construção
+
+A Multiplic quer virar uma plataforma: influenciadores indicam clientes
+via cupom e ganham por indicação. Em troca, recebem formação (academia
+em formato de stories) sobre como vender consórcio. A Multiplic dá o
+treinamento e fecha o negócio com o cliente por trás.
+
+## Tom de voz
+
+Direto, próximo, didático — fala como quem explica pro vizinho. Usa
+pergunta retórica pra abrir ("E se eu te disser que..."), reforça a
+ideia central de formas diferentes, sempre fecha com CTA claro (marcar
+reunião, comentar, chamar no direct). Ver `_memoria/preferencias.md`
+pra detalhes e exemplo real.
+
+Evitar: "caro cliente", jargão de guru, formalidade de corporação.
+
+## Posicionamento
+
+Consórcio não é sobre ter o dinheiro todo — é sobre começar a se
+organizar agora pro objetivo (imóvel, casa, sala comercial). A Multiplic
+existe pra mostrar esse caminho e, cada vez mais, pra dar a
+influenciadores parceiros uma forma real de monetizar indicando.
+
+## Regras do sistema
+
+- Conteúdo novo (carrossel, post) salvar em `marketing/conteudo/<tipo>-<tema>-<data>/`
+- Toda peça visual usa a paleta e o logo de `identidade/design-guide.md`
+- Prioridade atual: carrossel educativo com foco em atrair influenciadores (ver `_memoria/estrategia.md`)
+
+## Ferramentas conectadas
+
+- [ ] Instagram / Meta Ads
+- [ ] Google Ads
+- [ ] Projeto `multiplic-consorcios` (Next.js) — `/Users/juliolima/projects/multiplic-consorcios`
+
+*(Marcar conforme for instalando os MCPs)*

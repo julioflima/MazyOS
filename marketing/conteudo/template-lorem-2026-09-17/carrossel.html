@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --azul:#003854;
+    --azul-accent:#6FB4E8;
+    --dourado:#BB842E;
+    --ig-blue:#3897F0;
+    --off:#FAFAF7;
+    --muted:rgba(250,250,247,.55);
+    --border:rgba(255,255,255,.12);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#111;font-family:'Inter',sans-serif;display:flex;flex-direction:column;align-items:center;gap:40px;padding:40px}
+
+  .slide{
+    width:1080px;height:1350px;background:#000;color:var(--off);
+    position:relative;overflow:hidden;display:flex;flex-direction:column;
+    padding:72px;
+  }
+
+  /* ---------- header tipo tweet ---------- */
+  .head{display:flex;align-items:center;gap:20px;padding-bottom:40px}
+  .avatar{width:84px;height:84px;border-radius:50%;object-fit:cover;flex:none;background:#222}
+  .who{display:flex;flex-direction:column;gap:4px}
+  .name{display:flex;align-items:center;gap:10px;font-size:30px;font-weight:700;letter-spacing:-.01em}
+  .badge{display:flex;align-items:center;flex:none}
+  .badge svg{width:32px;height:32px}
+  .handle{font-size:26px;font-weight:400;color:var(--muted)}
+
+  /* ---------- corpo ---------- */
+  .body{flex:1;display:flex;flex-direction:column;justify-content:center;gap:34px}
+  .body.top{justify-content:flex-start}
+  p{font-size:41px;line-height:1.5;font-weight:400;letter-spacing:-.011em}
+  b{font-weight:700;color:var(--azul-accent)}
+  .solo{font-size:52px;font-weight:700;line-height:1.25;letter-spacing:-.02em}
+
+  .arrows{display:flex;flex-direction:column;gap:26px}
+  .arrows li{list-style:none;font-size:39px;line-height:1.4;display:flex;gap:18px;letter-spacing:-.011em}
+  .arrows li span{color:var(--azul-accent);font-weight:700;flex:none}
+
+  .numero{font-size:150px;font-weight:800;line-height:1;color:var(--azul-accent);letter-spacing:-.04em}
+
+  .apoio{width:100%;height:420px;border-radius:24px;background:#16181c;border:1px solid var(--border);
+    display:flex;align-items:center;justify-content:center;color:var(--muted);
+    font-size:24px;font-weight:600;letter-spacing:.2em;text-transform:uppercase}
+
+  /* ---------- rodapé ---------- */
+  .foot{display:flex;align-items:center;justify-content:space-between;padding-top:40px;border-top:1px solid var(--border)}
+  .foot img{height:52px}
+  .counter{font-size:24px;font-weight:500;letter-spacing:.18em;color:var(--muted)}
+
+  /* ---------- capa ---------- */
+  .capa{padding:0;justify-content:flex-end}
+  .capa .foto{position:absolute;inset:0;background:
+      linear-gradient(to bottom,rgba(0,0,0,.25) 0%,rgba(0,0,0,.35) 45%,rgba(0,0,0,.92) 88%),
+      repeating-linear-gradient(135deg,#242a30 0 26px,#1d2227 26px 52px);}
+  .capa .marca-foto{position:absolute;top:32%;left:0;right:0;transform:translateY(-50%);text-align:center;
+      font-size:26px;font-weight:700;letter-spacing:.3em;color:rgba(250,250,247,.28);text-transform:uppercase}
+  .capa .capa-inner{position:relative;padding:72px;display:flex;flex-direction:column;gap:34px}
+  .capa h1{font-size:96px;font-weight:900;line-height:1.02;letter-spacing:-.035em;text-transform:uppercase}
+  .capa .sub{font-size:36px;font-weight:400;color:rgba(250,250,247,.82);letter-spacing:-.01em}
+  .capa .foot{border-top:none;padding-top:8px}
+  /* logo no topo (padrão Lord) x logo no rodapé — alternar entre carrosséis */
+  .logo-top{position:absolute;top:64px;left:72px;height:52px;z-index:2}
+  .capa.logo-topo .foot img{visibility:hidden}
+  .capa:not(.logo-topo) .logo-top{display:none}
+
+  /* ---------- cta ---------- */
+  .palavra{align-self:flex-start;color:var(--dourado);font-size:92px;font-weight:900;
+      letter-spacing:-.03em;line-height:1;padding-bottom:18px;
+      border-bottom:5px solid var(--dourado)}
+</style>
+</head>
+<body>
+
+<!-- 01 — CAPA (logo no topo, padrão Lord) -->
+<div class="slide capa logo-topo">
+  <div class="foto"></div>
+  <div class="marca-foto">foto de capa · 1080×1350</div>
+  <img class="logo-top" src="../../../identidade/logo-branco.png" />
+  <div class="capa-inner">
+    <h1>Lorem ipsum<br/>dolor sit amet<br/>consectetur</h1>
+    <div class="sub">Sed do eiusmod tempor incididunt ut labore →</div>
+    <div class="foot"><img src="../../../identidade/logo-branco.png" /><div class="counter">01</div></div>
+  </div>
+</div>
+
+<!-- 02 — TEXTO + FRASE ISOLADA -->
+<div class="slide">
+  <div class="head">
+    <img class="avatar" src="../../../identidade/equipe/izabel-avatar.png" />
+    <div class="who">
+      <div class="name">Izabel · Multiplic
+        <span class="badge"><svg aria-label="Verified" fill="rgb(0, 149, 246)" viewBox="0 0 40 40" role="img"><path d="M19.998 3.094 14.638 0l-2.972 5.15H5.432v6.354L0 14.64 3.094 20 0 25.359l5.432 3.137v5.905h5.975L14.638 40l5.36-3.094L25.358 40l3.232-5.6h6.162v-6.01L40 25.359 36.905 20 40 14.641l-5.248-3.03v-6.46h-6.419L25.358 0l-5.36 3.094Zm7.415 11.225 2.254 2.287-11.43 11.5-6.835-6.93 2.244-2.258 4.587 4.581 9.18-9.18Z" fill-rule="evenodd"></path></svg></span>
+      </div>
+      <div class="handle">@izabelmultiplic</div>
+    </div>
+  </div>
+  <div class="body">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+    <p class="solo">Eu vi isso acontecer.</p>
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+  </div>
+  <div class="foot"><img src="../../../identidade/logo-branco.png" /><div class="counter">02</div></div>
+</div>
+
+<!-- 03 — TEXTO COM NEGRITO DE DESTAQUE -->
+<div class="slide">
+  <div class="head">
+    <img class="avatar" src="../../../identidade/equipe/izabel-avatar.png" />
+    <div class="who">
+      <div class="name">Izabel · Multiplic
+        <span class="badge"><svg aria-label="Verified" fill="rgb(0, 149, 246)" viewBox="0 0 40 40" role="img"><path d="M19.998 3.094 14.638 0l-2.972 5.15H5.432v6.354L0 14.64 3.094 20 0 25.359l5.432 3.137v5.905h5.975L14.638 40l5.36-3.094L25.358 40l3.232-5.6h6.162v-6.01L40 25.359 36.905 20 40 14.641l-5.248-3.03v-6.46h-6.419L25.358 0l-5.36 3.094Zm7.415 11.225 2.254 2.287-11.43 11.5-6.835-6.93 2.244-2.258 4.587 4.581 9.18-9.18Z" fill-rule="evenodd"></path></svg></span>
+      </div>
+      <div class="handle">@izabelmultiplic</div>
+    </div>
+  </div>
+  <div class="body">
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+    <p><b>Excepteur sint occaecat cupidatat non proident sunt in culpa.</b></p>
+    <p>Qui officia deserunt mollit anim id est laborum, sed ut perspiciatis unde omnis iste natus error.</p>
+  </div>
+  <div class="foot"><img src="../../../identidade/logo-branco.png" /><div class="counter">03</div></div>
+</div>
+
+<!-- 04 — LISTA COM SETAS -->
+<div class="slide">
+  <div class="head">
+    <img class="avatar" src="../../../identidade/equipe/izabel-avatar.png" />
+    <div class="who">
+      <div class="name">Izabel · Multiplic
+        <span class="badge"><svg aria-label="Verified" fill="rgb(0, 149, 246)" viewBox="0 0 40 40" role="img"><path d="M19.998 3.094 14.638 0l-2.972 5.15H5.432v6.354L0 14.64 3.094 20 0 25.359l5.432 3.137v5.905h5.975L14.638 40l5.36-3.094L25.358 40l3.232-5.6h6.162v-6.01L40 25.359 36.905 20 40 14.641l-5.248-3.03v-6.46h-6.419L25.358 0l-5.36 3.094Zm7.415 11.225 2.254 2.287-11.43 11.5-6.835-6.93 2.244-2.258 4.587 4.581 9.18-9.18Z" fill-rule="evenodd"></path></svg></span>
+      </div>
+      <div class="handle">@izabelmultiplic</div>
+    </div>
+  </div>
+  <div class="body">
+    <p class="solo">Accusantium doloremque:</p>
+    <ul class="arrows">
+      <li><span>→</span><div>Lorem ipsum dolor sit amet consectetur</div></li>
+      <li><span>→</span><div>Adipiscing elit sed do eiusmod tempor</div></li>
+      <li><span>→</span><div>Incididunt ut labore et dolore magna</div></li>
+      <li><span>→</span><div>Aliqua ut enim ad minim veniam quis</div></li>
+    </ul>
+  </div>
+  <div class="foot"><img src="../../../identidade/logo-branco.png" /><div class="counter">04</div></div>
+</div>
+
+<!-- 05 — NÚMERO / DADO -->
+<div class="slide">
+  <div class="head">
+    <img class="avatar" src="../../../identidade/equipe/izabel-avatar.png" />
+    <div class="who">
+      <div class="name">Izabel · Multiplic
+        <span class="badge"><svg aria-label="Verified" fill="rgb(0, 149, 246)" viewBox="0 0 40 40" role="img"><path d="M19.998 3.094 14.638 0l-2.972 5.15H5.432v6.354L0 14.64 3.094 20 0 25.359l5.432 3.137v5.905h5.975L14.638 40l5.36-3.094L25.358 40l3.232-5.6h6.162v-6.01L40 25.359 36.905 20 40 14.641l-5.248-3.03v-6.46h-6.419L25.358 0l-5.36 3.094Zm7.415 11.225 2.254 2.287-11.43 11.5-6.835-6.93 2.244-2.258 4.587 4.581 9.18-9.18Z" fill-rule="evenodd"></path></svg></span>
+      </div>
+      <div class="handle">@izabelmultiplic</div>
+    </div>
+  </div>
+  <div class="body">
+    <p>Totam rem aperiam eaque ipsa quae ab illo inventore:</p>
+    <div class="numero">R$ 00.000</div>
+    <p><b>Veritatis et quasi architecto beatae vitae dicta sunt explicabo.</b> Nemo enim ipsam voluptatem quia voluptas sit.</p>
+  </div>
+  <div class="foot"><img src="../../../identidade/logo-branco.png" /><div class="counter">05</div></div>
+</div>
+
+<!-- 06 — TEXTO + IMAGEM DE APOIO -->
+<div class="slide">
+  <div class="head">
+    <img class="avatar" src="../../../identidade/equipe/izabel-avatar.png" />
+    <div class="who">
+      <div class="name">Izabel · Multiplic
+        <span class="badge"><svg aria-label="Verified" fill="rgb(0, 149, 246)" viewBox="0 0 40 40" role="img"><path d="M19.998 3.094 14.638 0l-2.972 5.15H5.432v6.354L0 14.64 3.094 20 0 25.359l5.432 3.137v5.905h5.975L14.638 40l5.36-3.094L25.358 40l3.232-5.6h6.162v-6.01L40 25.359 36.905 20 40 14.641l-5.248-3.03v-6.46h-6.419L25.358 0l-5.36 3.094Zm7.415 11.225 2.254 2.287-11.43 11.5-6.835-6.93 2.244-2.258 4.587 4.581 9.18-9.18Z" fill-rule="evenodd"></path></svg></span>
+      </div>
+      <div class="handle">@izabelmultiplic</div>
+    </div>
+  </div>
+  <div class="body">
+    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.</p>
+    <div class="apoio">imagem de apoio</div>
+    <p><b>Consectetur adipisci velit sed quia non numquam.</b></p>
+  </div>
+  <div class="foot"><img src="../../../identidade/logo-branco.png" /><div class="counter">06</div></div>
+</div>
+
+<!-- 07 — CTA CONVITE (texto fixo) -->
+<div class="slide">
+  <div class="head">
+    <img class="avatar" src="../../../identidade/equipe/izabel-avatar.png" />
+    <div class="who">
+      <div class="name">Izabel · Multiplic
+        <span class="badge"><svg aria-label="Verified" fill="rgb(0, 149, 246)" viewBox="0 0 40 40" role="img"><path d="M19.998 3.094 14.638 0l-2.972 5.15H5.432v6.354L0 14.64 3.094 20 0 25.359l5.432 3.137v5.905h5.975L14.638 40l5.36-3.094L25.358 40l3.232-5.6h6.162v-6.01L40 25.359 36.905 20 40 14.641l-5.248-3.03v-6.46h-6.419L25.358 0l-5.36 3.094Zm7.415 11.225 2.254 2.287-11.43 11.5-6.835-6.93 2.244-2.258 4.587 4.581 9.18-9.18Z" fill-rule="evenodd"></path></svg></span>
+      </div>
+      <div class="handle">@izabelmultiplic</div>
+    </div>
+  </div>
+  <div class="body" style="gap:28px">
+    <p class="solo">Casa própria. Carro novo.</p>
+    <p>Os dois maiores sonhos de quem te segue.</p>
+    <p><b>E você pode ser quem mostra o caminho — e ganha até R$ 10 mil por indicação.</b></p>
+    <p>Já ajudamos milhares de famílias a chegar lá. Agora abrimos parceria com criadores selecionados.</p>
+    <p>Nada de estoque. Nada de atendimento. Você cria, a gente converte.</p>
+  </div>
+  <div class="foot"><img src="../../../identidade/logo-branco.png" /><div class="counter">07</div></div>
+</div>
+
+<!-- 08 — CTA FINAL (texto fixo) -->
+<div class="slide">
+  <div class="head">
+    <img class="avatar" src="../../../identidade/equipe/izabel-avatar.png" />
+    <div class="who">
+      <div class="name">Izabel · Multiplic
+        <span class="badge"><svg aria-label="Verified" fill="rgb(0, 149, 246)" viewBox="0 0 40 40" role="img"><path d="M19.998 3.094 14.638 0l-2.972 5.15H5.432v6.354L0 14.64 3.094 20 0 25.359l5.432 3.137v5.905h5.975L14.638 40l5.36-3.094L25.358 40l3.232-5.6h6.162v-6.01L40 25.359 36.905 20 40 14.641l-5.248-3.03v-6.46h-6.419L25.358 0l-5.36 3.094Zm7.415 11.225 2.254 2.287-11.43 11.5-6.835-6.93 2.244-2.258 4.587 4.581 9.18-9.18Z" fill-rule="evenodd"></path></svg></span>
+      </div>
+      <div class="handle">@izabelmultiplic</div>
+    </div>
+  </div>
+  <div class="body" style="gap:32px">
+    <p>Se você cria conteúdo e quer testar isso, deixa essa palavra nos comentários:</p>
+    <div class="palavra">INFLUENCER</div>
+    <p>A gente marca uma reunião e explica tudo — sem letra miúda.</p>
+    <p>Se fizer sentido, aí sim vem o contrato.</p>
+  </div>
+  <div class="foot"><img src="../../../identidade/logo-branco.png" /><div class="counter">08</div></div>
+</div>
+
+<!-- ===== ALTERNATIVA TIPO 1 — bloco SONHO (substitui os slides 07 e 08) ===== -->
+
+<!-- 07alt — CONVITE SONHO -->
+<div class="slide">
+  <div class="head">
+    <img class="avatar" src="../../../identidade/equipe/izabel-avatar.png" />
+    <div class="who">
+      <div class="name">Izabel · Multiplic
+        <span class="badge"><svg aria-label="Verified" fill="rgb(0, 149, 246)" viewBox="0 0 40 40" role="img"><path d="M19.998 3.094 14.638 0l-2.972 5.15H5.432v6.354L0 14.64 3.094 20 0 25.359l5.432 3.137v5.905h5.975L14.638 40l5.36-3.094L25.358 40l3.232-5.6h6.162v-6.01L40 25.359 36.905 20 40 14.641l-5.248-3.03v-6.46h-6.419L25.358 0l-5.36 3.094Zm7.415 11.225 2.254 2.287-11.43 11.5-6.835-6.93 2.244-2.258 4.587 4.581 9.18-9.18Z" fill-rule="evenodd"></path></svg></span>
+      </div>
+      <div class="handle">@izabelmultiplic</div>
+    </div>
+  </div>
+  <div class="body" style="gap:28px">
+    <p class="solo">Casa própria. Carro novo.</p>
+    <p>Os dois maiores sonhos da sua vida.</p>
+    <p><b>E o que trava a maioria não é dinheiro — é não saber como funciona.</b></p>
+    <p>Já ajudamos milhares de famílias a chegar lá.</p>
+    <p>Ninguém decide o que não entende. Então a gente explica primeiro.</p>
+  </div>
+  <div class="foot"><img src="../../../identidade/logo-branco.png" /><div class="counter">07</div></div>
+</div>
+
+<!-- 08alt — CTA SONHO -->
+<div class="slide">
+  <div class="head">
+    <img class="avatar" src="../../../identidade/equipe/izabel-avatar.png" />
+    <div class="who">
+      <div class="name">Izabel · Multiplic
+        <span class="badge"><svg aria-label="Verified" fill="rgb(0, 149, 246)" viewBox="0 0 40 40" role="img"><path d="M19.998 3.094 14.638 0l-2.972 5.15H5.432v6.354L0 14.64 3.094 20 0 25.359l5.432 3.137v5.905h5.975L14.638 40l5.36-3.094L25.358 40l3.232-5.6h6.162v-6.01L40 25.359 36.905 20 40 14.641l-5.248-3.03v-6.46h-6.419L25.358 0l-5.36 3.094Zm7.415 11.225 2.254 2.287-11.43 11.5-6.835-6.93 2.244-2.258 4.587 4.581 9.18-9.18Z" fill-rule="evenodd"></path></svg></span>
+      </div>
+      <div class="handle">@izabelmultiplic</div>
+    </div>
+  </div>
+  <div class="body" style="gap:32px">
+    <p>Se quiser entender como funciona, deixa essa palavra nos comentários:</p>
+    <div class="palavra">SONHO</div>
+    <p>Te mando de graça o material que explica o consórcio do começo ao fim.</p>
+    <p>Sem compromisso nenhum.</p>
+  </div>
+  <div class="foot"><img src="../../../identidade/logo-branco.png" /><div class="counter">08</div></div>
+</div>
+
+<!-- ===== VARIANTE DE CAPA — logo no rodapé (alternar com a de cima) ===== -->
+<div class="slide capa">
+  <div class="foto"></div>
+  <div class="marca-foto">foto de capa · 1080×1350</div>
+  <img class="logo-top" src="../../../identidade/logo-branco.png" />
+  <div class="capa-inner">
+    <h1>Lorem ipsum<br/>dolor sit amet<br/>consectetur</h1>
+    <div class="sub">Sed do eiusmod tempor incididunt ut labore →</div>
+    <div class="foot"><img src="../../../identidade/logo-branco.png" /><div class="counter">01</div></div>
+  </div>
+</div>
+
+</body>
+</html>

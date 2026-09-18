@@ -1,0 +1,41 @@
+# Legenda — CTA INFLUENCER
+
+**Post:** O segundo melhor dia é hoje
+**Origem:** reel `DY7h11WBsxK`
+**Público:** criadores de conteúdo, distribuição
+
+---
+
+Há um provérbio que diz que o melhor dia para plantar uma árvore foi há vinte anos, e que o segundo melhor é hoje. A frase circula tanto que virou enfeite de parede.
+
+Mas ela descreve com precisão uma conta que quase ninguém faz: a de quanto custa o tempo que passamos decidindo.
+
+Enquanto adiamos, nada fica parado esperando por nós. O imóvel sobe, o carro encarece, e a parcela que caberia no orçamento de hoje já não cabe no de depois.
+
+O que parecia cautela era só atraso com nome bonito.
+
+Os economistas chamam isso de custo de oportunidade: o valor daquilo que se deixou de ganhar ao escolher esperar. É um custo que não aparece em nenhuma fatura.
+
+Justamente por não aparecer, é o mais fácil de ignorar e o mais caro de descobrir tarde.
+
+Quem começou um consórcio há cinco anos não era mais corajoso nem tinha mais dinheiro. Só tomou uma decisão pequena antes de precisar tomá-la grande.
+
+E a decisão pequena é sempre a mais barata das duas.
+
+Se o melhor momento já passou, tudo bem. Ele passou para quase todo mundo.
+
+O segundo melhor continua disponível, e ele não exige que a sua vida esteja perfeita para começar.
+
+Casa própria e carro novo são os dois maiores sonhos de quem te segue. E você pode ser quem mostra esse caminho — e ganha até R$ 10 mil por indicação.
+
+Já ajudamos milhares de famílias a chegar lá. Agora abrimos parceria com criadores selecionados. Nada de estoque, nada de atendimento: você cria, a gente converte.
+
+Se você cria conteúdo e quer testar isso, deixa **INFLUENCER** aqui nos comentários. A gente marca uma reunião e explica tudo — sem letra miúda. Se fizer sentido, aí sim vem o contrato.
+
+---
+
+#consorcio #parceria #criadordeconteudo #rendaextra #monetizacao #influencerdigital #educacaofinanceira #creatoreconomy #empreendedorismo #indicacao #multiplic #fortaleza #planejamento #primeiroimovel
+
+---
+
+*Foto de capa: Mike Hindle, via Unsplash (Unsplash License (uso comercial liberado, crédito recomendado)).*

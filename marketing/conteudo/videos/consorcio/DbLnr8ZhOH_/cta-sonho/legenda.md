@@ -26,7 +26,13 @@ Se alguém já te disse que consórcio é sempre bom ou sempre ruim, desconfie d
 
 A pergunta certa nunca foi essa — e fazer a pergunta certa já resolve metade da decisão.
 
-Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mando de graça o material que explica o consórcio do começo ao fim. Sem compromisso nenhum.
+Gostou? Fez sentido?
+
+Então imagina começar hoje.
+
+Comente **SONHO** abaixo.
+
+MUDE a história de endividamento da sua família.
 
 ---
 
@@ -34,4 +40,4 @@ Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mand
 
 ---
 
-*Foto de capa: cottonbro studio, via Pexels (Pexels License (uso comercial liberado, crédito recomendado)).*
+*Foto de capa: Piret Ilver, via Unsplash (Unsplash License (uso comercial liberado, crédito recomendado)).*

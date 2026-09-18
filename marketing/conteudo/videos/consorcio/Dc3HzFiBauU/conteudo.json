@@ -5,7 +5,7 @@
     "também usa"
   ],
   "subtitulo": "Sobre por que investidor evita descapitalizar →",
-  "busca": "luxury modern apartment interior living room",
+  "busca": "grand mansion library interior old money",
   "tags": [
     "investidor",
     "capital"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "09-pexels.jpg"
+  "capa": "03-unsplash.jpg",
+  "cta_curto": false
 }

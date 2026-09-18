@@ -5,7 +5,7 @@
     "o sorteio"
   ],
   "subtitulo": "Sobre um detalhe pequeno com consequência grande →",
-  "busca": "calendar deadline circled date reminder desk",
+  "busca": "vintage wall calendar office documentary",
   "tags": [
     "assembleia",
     "adimplencia"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "04-pexels.jpg"
+  "capa": "02-unsplash.jpg",
+  "cta_curto": false
 }

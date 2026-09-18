@@ -5,7 +5,7 @@
     "rendendo"
   ],
   "subtitulo": "A história de uma cliente que fez o patrimônio trabalhar →",
-  "busca": "empty elegant living room large house interior",
+  "busca": "empty grand house interior documentary",
   "tags": [
     "casoreal",
     "alavancagem"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "06-pexels.jpg"
+  "capa": "06-unsplash.jpg",
+  "cta_curto": false
 }

@@ -5,7 +5,7 @@
     "financiamento"
   ],
   "subtitulo": "Sobre a modalidade que quase ninguém sabe que existe →",
-  "busca": "home kitchen renovation construction work",
+  "busca": "house construction site scaffolding bricks workers",
   "tags": [
     "reforma",
     "porto"
@@ -33,5 +33,7 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "09-pexels.jpg"
+  "capa_pos": "center 20%",
+  "capa": "04-unsplash.jpg",
+  "cta_curto": false
 }

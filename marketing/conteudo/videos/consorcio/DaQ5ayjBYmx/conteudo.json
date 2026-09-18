@@ -5,7 +5,7 @@
     "sonho"
   ],
   "subtitulo": "Sobre a distância entre querer muito e chegar lá →",
-  "busca": "architect blueprint house plan drawing desk",
+  "busca": "architect drafting table 1950s photograph",
   "tags": [
     "planejamento",
     "objetivos"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "topo",
-  "capa": "04-pexels.jpg"
+  "capa": "03-unsplash.jpg",
+  "cta_curto": true
 }

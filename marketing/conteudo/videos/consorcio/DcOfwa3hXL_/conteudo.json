@@ -5,7 +5,7 @@
     "imóvel"
   ],
   "subtitulo": "Sobre uma certeza quase universal e o preparo que ela pede →",
-  "busca": "modern apartment building facade blue sky",
+  "busca": "classic mansion facade grand house",
   "tags": [
     "preparacao",
     "primeiroimovel"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "22-pexels.jpg"
+  "capa": "09-unsplash.jpg",
+  "cta_curto": false
 }

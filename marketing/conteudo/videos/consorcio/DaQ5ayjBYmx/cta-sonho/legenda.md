@@ -26,7 +26,13 @@ Se os seus planos ainda estão na cabeça, isso não faz de você alguém que n�
 
 Faz de você alguém que ainda não colocou data — e data é a parte mais fácil de resolver.
 
-Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mando de graça o material que explica o consórcio do começo ao fim. Sem compromisso nenhum.
+Gostou? Fez sentido?
+
+Então imagina começar hoje.
+
+Comente **SONHO** abaixo.
+
+MUDE a história de endividamento da sua família.
 
 ---
 
@@ -34,4 +40,4 @@ Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mand
 
 ---
 
-*Foto de capa: Czapp Árpád, via Pexels (Pexels License (uso comercial liberado, crédito recomendado)).*
+*Foto de capa: Museum of New Zealand Te Papa Tongarewa, via Unsplash (Unsplash License (uso comercial liberado, crédito recomendado)).*

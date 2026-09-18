@@ -5,7 +5,7 @@
     "imóvel"
   ],
   "subtitulo": "Sobre o que cada caminho cobra em troca da pressa →",
-  "busca": "two identical doors side by side wall",
+  "busca": "two doors side by side close up facade",
   "tags": [
     "financiamento",
     "comparacao"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "topo",
-  "capa": "20-pexels.jpg"
+  "capa": "11-unsplash.jpg",
+  "cta_curto": false
 }

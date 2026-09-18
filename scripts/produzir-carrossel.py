@@ -17,7 +17,7 @@ import json, os, re, subprocess, sys
 PASTA = os.path.abspath(sys.argv[1].rstrip('/'))
 RAIZ  = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from ctas import CTAS
+from ctas import CTAS, CTA_CURTO
 
 NODE_PATH = os.path.join(RAIZ, 'marketing/conteudo/.render/node_modules')
 c = json.load(open(os.path.join(PASTA, 'conteudo.json')))
@@ -80,7 +80,8 @@ corpo = '\n\n'.join(limpo(p) for slide in c['slides'] for p in slide)
 titulo = ' '.join(c['titulo'])
 vid = os.path.basename(PASTA)
 
-for nome, cta in CTAS.items():
+for nome, cta_padrao in CTAS.items():
+    cta = {**cta_padrao, **CTA_CURTO.get(nome, {})} if c.get('cta_curto') else cta_padrao
     tags = ' '.join(cta['hashtags'] + ['#' + t for t in c.get('tags',[])])
     txt = f"""# Legenda — CTA {cta['rotulo']}
 

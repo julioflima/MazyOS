@@ -26,7 +26,13 @@ Se você tem um bem quitado e nunca pensou nisso, é o caso da maioria das pesso
 
 Ter patrimônio parado não é erro. Costuma ser só a etapa antes de descobrir que ele podia estar trabalhando.
 
-Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mando de graça o material que explica o consórcio do começo ao fim. Sem compromisso nenhum.
+Gostou? Fez sentido?
+
+Então imagina a chave na sua mão, sem um centavo de juro no caminho. O que trava a maioria não é falta de dinheiro. É não saber como funciona.
+
+Se quiser entender, comente **SONHO** abaixo. Eu te mando o material que explica tudo, do começo ao fim, de graça.
+
+MUDE a história de endividamento da sua família.
 
 ---
 
@@ -34,4 +40,4 @@ Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mand
 
 ---
 
-*Foto de capa: Faruk Tokluoğlu, via Pexels (Pexels License (uso comercial liberado, crédito recomendado)).*
+*Foto de capa: Kateryna Hliznitsova, via Unsplash (Unsplash License (uso comercial liberado, crédito recomendado)).*

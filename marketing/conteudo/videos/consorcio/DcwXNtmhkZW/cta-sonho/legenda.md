@@ -26,7 +26,13 @@ Se você desconfiou da frase sem juros, você fez bem.
 
 Desconfiar de promessa redonda é o começo de qualquer boa decisão financeira — e agora a conta está aberta.
 
-Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mando de graça o material que explica o consórcio do começo ao fim. Sem compromisso nenhum.
+Gostou? Fez sentido?
+
+Então imagina a chave na sua mão, sem um centavo de juro no caminho. O que trava a maioria não é falta de dinheiro. É não saber como funciona.
+
+Se quiser entender, comente **SONHO** abaixo. Eu te mando o material que explica tudo, do começo ao fim, de graça.
+
+MUDE a história de endividamento da sua família.
 
 ---
 
@@ -34,4 +40,4 @@ Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mand
 
 ---
 
-*Foto de capa: cottonbro studio, via Pexels (Pexels License (uso comercial liberado, crédito recomendado)).*
+*Foto de capa: Leo_Visions, via Unsplash (Unsplash License (uso comercial liberado, crédito recomendado)).*

@@ -5,7 +5,7 @@
     "parcela"
   ],
   "subtitulo": "Sobre um arranjo em que o dinheiro trabalha duas vezes →",
-  "busca": "growing stacks of coins investment chart",
+  "busca": "bank vault safe deposit documentary",
   "tags": [
     "alavancagem",
     "rendafixa"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "topo",
-  "capa": "07-pexels.jpg"
+  "capa": "01-unsplash.jpg",
+  "cta_curto": false
 }

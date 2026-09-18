@@ -26,7 +26,13 @@ E se você está pensando em desistir agora, vale conversar antes de assinar qua
 
 Na maioria dos casos existe um caminho melhor que sair, e ele só aparece quando alguém olha o contrato com você.
 
-Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mando de graça o material que explica o consórcio do começo ao fim. Sem compromisso nenhum.
+Gostou? Fez sentido?
+
+Então imagina começar hoje.
+
+Comente **SONHO** abaixo.
+
+MUDE a história de endividamento da sua família.
 
 ---
 
@@ -34,4 +40,4 @@ Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mand
 
 ---
 
-*Foto de capa: Amaury Michaux, via Pexels (Pexels License (uso comercial liberado, crédito recomendado)).*
+*Foto de capa: Greg Rosenke, via Unsplash (Unsplash License (uso comercial liberado, crédito recomendado)).*

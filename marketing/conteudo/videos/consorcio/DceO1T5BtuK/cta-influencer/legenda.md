@@ -26,11 +26,13 @@ Se isso parece coisa de quem tem muito, o mecanismo é o mesmo em qualquer escal
 
 O que muda é o tamanho dos números — e nunca foi o tamanho deles que decidiu quem entende a lógica.
 
-Casa própria e carro novo são os dois maiores sonhos de quem te segue. E você pode ser quem mostra esse caminho — e ganha até R$ 10 mil por indicação.
+Gostou? Fez sentido?
 
-Já ajudamos milhares de famílias a chegar lá. Agora abrimos parceria com criadores selecionados. Nada de estoque, nada de atendimento: você cria, a gente converte.
+Imagina ser parceiro de uma empresa que tira famílias do juro e as coloca dentro da própria casa. Você apresenta a possibilidade. Eu conduzo o resto.
 
-Se você cria conteúdo e quer testar isso, deixa **INFLUENCER** aqui nos comentários. A gente marca uma reunião e explica tudo — sem letra miúda. Se fizer sentido, aí sim vem o contrato.
+Se te tocou, comente **INFLUENCER** abaixo. Vinte minutos comigo e você entende tudo — entender de consórcio é comigo.
+
+MUDE a história de endividamento do seu país.
 
 ---
 
@@ -38,4 +40,4 @@ Se você cria conteúdo e quer testar isso, deixa **INFLUENCER** aqui nos coment
 
 ---
 
-*Foto de capa: Towfiqu barbhuiya, via Pexels (Pexels License (uso comercial liberado, crédito recomendado)).*
+*Foto de capa: Brock Wegner, via Unsplash (Unsplash License (uso comercial liberado, crédito recomendado)).*

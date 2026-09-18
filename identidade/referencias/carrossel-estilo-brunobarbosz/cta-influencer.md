@@ -54,3 +54,52 @@
     branco — não usar dourado aqui, é ícone de plataforma, não de marca
   - Logo no rodapé: `identidade/logo-branco.png`, ~56px de altura, sozinho
     (sem texto "MULTIPLIC" ao lado)
+
+## Reescrita em 18/09/26 — mais próxima, sem número
+
+Julio reprovou duas versões anteriores: a primeira por ser **fria**
+("criadores selecionados", "você cria, a gente converte", "sem letra miúda" —
+tudo em terceira pessoa institucional), e a segunda por citar **R$ 10 mil por
+indicação**, que soou invasivo.
+
+Texto atual, na estrutura que Julio pediu (Robert Collier: entrar na conversa
+que já está na cabeça do leitor; Eugene Schwartz: gradualization no "agora
+imagina"):
+
+**Convite**
+- "Gostou? Fez sentido?" (linha isolada)
+- "Então imagina ser parceiro de uma empresa que muda a vida de uma família por mês."
+- "Você já tem a parte difícil: gente que confia em você."
+- **"Eu entro com o resto, e a gente divide o que vem disso."**
+- "Casa própria, carro novo. É disso que a gente tá falando."
+
+**CTA**
+- "Se isso te tocou, deixa essa palavra aqui embaixo:"
+- `INFLUENCER` em dourado
+- "Eu te chamo pessoalmente pra conversar. Sem compromisso."
+- "Você não precisa entender de consórcio. Essa parte é comigo."
+
+### Regras que saíram disso
+
+- **Nada de valor em reais no convite.** Número de comissão na capa da
+  parceria soa invasivo. O ganho entra como sociedade ("a gente divide"), e o
+  valor se discute na reunião.
+- **Primeira pessoa.** Quem fala é a Izabel, não "a gente" institucional.
+- **Nada de filtro de seleção** ("criadores selecionados") — fecha a porta
+  antes de convidar.
+- A última linha derruba a objeção real de quem cria conteúdo: o medo de
+  precisar virar especialista em consórcio.
+- **Nada de linguagem de barganha.** "A gente divide o que vem disso" foi
+  reprovado por Julio: *"isso soa como uma feira"*. O ganho entra pelo
+  substantivo — **sociedade** — que carrega dinheiro sem nomear. Cada lado
+  ganha um papel com peso: "você apresenta a possibilidade, eu conduzo o
+  resto". Collier nunca negociava dentro da carta; a dignidade da oferta é
+  que faz o trabalho.
+- **A call se vende pelo impacto, não pela comissão.** "Calcula o que a sua
+  audiência pode gerar" foi reprovado: é receita tirada das pessoas dela.
+  No lugar, o mesmo número com a direção moral invertida — *"te mostro o
+  tamanho do juro que a sua audiência paga sem precisar pagar"*.
+- Usar **parceria**, não "sociedade".
+- **Não inventar cifra macro** ("milhões economizados", "dívida do país").
+  Sem fonte vira promessa de guru. Se a Multiplic tiver número próprio
+  (famílias atendidas, juro médio evitado), ele entra aqui e vale mais.

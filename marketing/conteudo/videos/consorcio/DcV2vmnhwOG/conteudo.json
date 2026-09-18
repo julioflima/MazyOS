@@ -5,7 +5,7 @@
     "vantagem"
   ],
   "subtitulo": "Sobre um mecanismo que premia quem não atrasa →",
-  "busca": "calendar with checkmarks streak days",
+  "busca": "hand stamping document ink close up",
   "tags": [
     "lancefidelidade",
     "porto"
@@ -33,5 +33,7 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "02-pexels.jpg"
+  "capa": "03-unsplash.jpg",
+  "capa_pos": "center 25%",
+  "cta_curto": false
 }

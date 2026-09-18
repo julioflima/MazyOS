@@ -26,7 +26,13 @@ Se você descartou consórcio porque não quer comprar casa agora, faz sentido: 
 
 Só que a ferramenta sempre foi mais larga do que a propaganda dela.
 
-Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mando de graça o material que explica o consórcio do começo ao fim. Sem compromisso nenhum.
+Gostou? Fez sentido?
+
+Então imagina a chave na sua mão, sem um centavo de juro no caminho. O que trava a maioria não é falta de dinheiro. É não saber como funciona.
+
+Se quiser entender, comente **SONHO** abaixo. Eu te mando o material que explica tudo, do começo ao fim, de graça.
+
+MUDE a história de endividamento da sua família.
 
 ---
 

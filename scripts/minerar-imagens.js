@@ -164,6 +164,10 @@ async function pexels(q) {
   // --sem-met: o acervo do Met é arte (quadro, escultura). Bom pra luxo e
   // arquitetura, ruído pra cena cotidiana. Produção em lote roda sem ele.
   if (args.includes('--sem-met')) fontes = fontes.filter(([n]) => n !== 'met');
+  // --arquivo: só acervo documental/histórico. O Pexels é banco comercial —
+  // modelo posado, sorriso de catálogo — e destrói o tom editorial (Julio,
+  // 18/09/26: "são só peças de marketing em stock").
+  if (args.includes('--arquivo')) fontes = fontes.filter(([n]) => n !== 'pexels' && n !== 'met');
   let todas = [];
 
   for (const [nome, fn] of fontes) {

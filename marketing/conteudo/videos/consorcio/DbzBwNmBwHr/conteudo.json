@@ -5,7 +5,7 @@
     "os braços"
   ],
   "subtitulo": "Sobre a diferença entre aguardar e ficar parado →",
-  "busca": "person walking long empty road sunrise",
+  "busca": "person walking along road back view journey",
   "tags": [
     "fe",
     "constancia"
@@ -33,5 +33,7 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "06-pexels.jpg"
+  "capa_pos": "center 25%",
+  "capa": "09-unsplash.jpg",
+  "cta_curto": false
 }

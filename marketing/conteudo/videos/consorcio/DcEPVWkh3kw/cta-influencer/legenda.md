@@ -26,11 +26,13 @@ Se você nunca pediu uma simulação por achar que não valeria a pena, isso é 
 
 O que costuma estar caro não é a parcela. É o tempo que se passa achando que ela é impossível.
 
-Casa própria e carro novo são os dois maiores sonhos de quem te segue. E você pode ser quem mostra esse caminho — e ganha até R$ 10 mil por indicação.
+Gostou? Fez sentido?
 
-Já ajudamos milhares de famílias a chegar lá. Agora abrimos parceria com criadores selecionados. Nada de estoque, nada de atendimento: você cria, a gente converte.
+Imagina ser parceiro de uma empresa que tira famílias do juro e as coloca dentro da própria casa. Você apresenta a possibilidade. Eu conduzo o resto.
 
-Se você cria conteúdo e quer testar isso, deixa **INFLUENCER** aqui nos comentários. A gente marca uma reunião e explica tudo — sem letra miúda. Se fizer sentido, aí sim vem o contrato.
+Se te tocou, comente **INFLUENCER** abaixo. Vinte minutos comigo e você entende tudo — entender de consórcio é comigo.
+
+MUDE a história de endividamento do seu país.
 
 ---
 
@@ -38,4 +40,4 @@ Se você cria conteúdo e quer testar isso, deixa **INFLUENCER** aqui nos coment
 
 ---
 
-*Foto de capa: Ensar *, via Pexels (Pexels License (uso comercial liberado, crédito recomendado)).*
+*Foto de capa: Julie Mallet, via Unsplash (Unsplash License (uso comercial liberado, crédito recomendado)).*

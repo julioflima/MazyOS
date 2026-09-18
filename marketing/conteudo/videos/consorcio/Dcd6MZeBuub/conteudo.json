@@ -5,7 +5,7 @@
     "você compra"
   ],
   "subtitulo": "Sobre uma escolha que não dá para desfazer no meio →",
-  "busca": "car parked in front of house driveway",
+  "busca": "classic car in front of house close 1960s",
   "tags": [
     "objetivo",
     "contratacao"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "12-pexels.jpg"
+  "capa": "02-unsplash.jpg",
+  "cta_curto": false
 }

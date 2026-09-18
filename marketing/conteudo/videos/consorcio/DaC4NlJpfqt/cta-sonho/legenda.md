@@ -26,7 +26,13 @@ Se o seu nome está negativado, você não está fora do jogo. Está num momento
 
 E momento, por definição, é a única coisa que não dura.
 
-Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mando de graça o material que explica o consórcio do começo ao fim. Sem compromisso nenhum.
+Gostou? Fez sentido?
+
+Então imagina começar hoje.
+
+Comente **SONHO** abaixo.
+
+MUDE a história de endividamento da sua família.
 
 ---
 

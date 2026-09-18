@@ -26,11 +26,13 @@ Se você acreditou em alguma dessas, é porque elas são repetidas por pessoas q
 
 Rever uma ideia antiga não é sinal de que você estava errado. É sinal de que continuou prestando atenção.
 
-Casa própria e carro novo são os dois maiores sonhos de quem te segue. E você pode ser quem mostra esse caminho — e ganha até R$ 10 mil por indicação.
+Gostou? Fez sentido?
 
-Já ajudamos milhares de famílias a chegar lá. Agora abrimos parceria com criadores selecionados. Nada de estoque, nada de atendimento: você cria, a gente converte.
+Então imagina fazer isso pela sua audiência.
 
-Se você cria conteúdo e quer testar isso, deixa **INFLUENCER** aqui nos comentários. A gente marca uma reunião e explica tudo — sem letra miúda. Se fizer sentido, aí sim vem o contrato.
+Comente **INFLUENCER** abaixo.
+
+MUDE a história de endividamento do seu país.
 
 ---
 
@@ -38,4 +40,4 @@ Se você cria conteúdo e quer testar isso, deixa **INFLUENCER** aqui nos coment
 
 ---
 
-*Foto de capa: damla selen demir, via Pexels (Pexels License (uso comercial liberado, crédito recomendado)).*
+*Foto de capa: Ahmet Almaz, via Unsplash (Unsplash License (uso comercial liberado, crédito recomendado)).*

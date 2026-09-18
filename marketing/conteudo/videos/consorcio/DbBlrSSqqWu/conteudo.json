@@ -5,7 +5,7 @@
     "é o melhor"
   ],
   "subtitulo": "Sobre o dinheiro que para de render no dia da compra →",
-  "busca": "stack of cash banknotes on table close up",
+  "busca": "bank teller counting banknotes vintage photograph",
   "tags": [
     "investimento",
     "estrategia"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "topo",
-  "capa": "05-pexels.jpg"
+  "capa": "05-unsplash.jpg",
+  "cta_curto": false
 }

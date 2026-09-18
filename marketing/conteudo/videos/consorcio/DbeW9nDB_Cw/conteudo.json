@@ -5,7 +5,7 @@
     "olhe o mapa"
   ],
   "subtitulo": "Sobre a análise que precede qualquer imóvel para renda →",
-  "busca": "architect looking at city plan blueprint table",
+  "busca": "architect studying city plan 1950s",
   "tags": [
     "analisepatrimonial",
     "renda"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "topo",
-  "capa": "02-pexels.jpg"
+  "capa": "11-unsplash.jpg",
+  "cta_curto": false
 }

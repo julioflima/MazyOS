@@ -5,7 +5,7 @@
     "inquilino"
   ],
   "subtitulo": "Sobre o momento em que o bem começa a se pagar →",
-  "busca": "apartment building keys rental tenant",
+  "busca": "tenement apartment building documentary",
   "tags": [
     "aluguel",
     "renda"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "04-pexels.jpg"
+  "capa": "03-wikimedia.jpg",
+  "cta_curto": false
 }

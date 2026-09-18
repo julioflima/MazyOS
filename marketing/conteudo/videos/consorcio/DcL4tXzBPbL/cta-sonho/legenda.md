@@ -26,7 +26,13 @@ Se a sua vida está cheia de lembranças e vazia de reserva, você não escolheu
 
 Só faltava alguém colocar a segunda coisa num formato tão automático quanto a primeira.
 
-Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mando de graça o material que explica o consórcio do começo ao fim. Sem compromisso nenhum.
+Gostou? Fez sentido?
+
+Então imagina começar hoje.
+
+Comente **SONHO** abaixo.
+
+MUDE a história de endividamento da sua família.
 
 ---
 
@@ -34,4 +40,4 @@ Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mand
 
 ---
 
-*Foto de capa: Rahime Gül, via Pexels (Pexels License (uso comercial liberado, crédito recomendado)).*
+*Foto de capa: Annie Spratt, via Unsplash (Unsplash License (uso comercial liberado, crédito recomendado)).*

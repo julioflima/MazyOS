@@ -5,7 +5,7 @@
     "dívida planejada"
   ],
   "subtitulo": "Sobre empresas que descobriram que dá para reorganizar o passivo →",
-  "busca": "business owner reviewing documents warehouse office",
+  "busca": "stack of invoices bills paperwork close up",
   "tags": [
     "empresario",
     "dividas"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "04-pexels.jpg"
+  "capa": "03-unsplash.jpg",
+  "cta_curto": false
 }

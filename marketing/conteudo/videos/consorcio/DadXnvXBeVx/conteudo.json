@@ -5,7 +5,7 @@
     "o contrato"
   ],
   "subtitulo": "Sobre por que meia informação sai mais caro que nenhuma →",
-  "busca": "person scrolling phone social media at night",
+  "busca": "hands holding smartphone screen close up",
   "tags": [
     "lanceembutido",
     "informacao"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "topo",
-  "capa": "05-pexels.jpg"
+  "capa": "07-unsplash.jpg",
+  "cta_curto": true
 }

@@ -5,7 +5,7 @@
     "três imóveis"
   ],
   "subtitulo": "Sobre a carta que não precisa virar uma coisa só →",
-  "busca": "row of three modern houses street",
+  "busca": "row of houses facade close up",
   "tags": [
     "cartadecredito",
     "estrategia"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "topo",
-  "capa": "18-pexels.jpg"
+  "capa": "08-unsplash.jpg",
+  "cta_curto": false
 }

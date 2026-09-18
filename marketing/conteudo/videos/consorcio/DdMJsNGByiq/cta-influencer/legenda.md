@@ -26,11 +26,13 @@ Se a sua empresa carrega patrimônio e vive apertada, isso não é contradição
 
 É o desenho mais comum que existe — e é um desenho que dá para redesenhar.
 
-Casa própria e carro novo são os dois maiores sonhos de quem te segue. E você pode ser quem mostra esse caminho — e ganha até R$ 10 mil por indicação.
+Gostou? Fez sentido?
 
-Já ajudamos milhares de famílias a chegar lá. Agora abrimos parceria com criadores selecionados. Nada de estoque, nada de atendimento: você cria, a gente converte.
+Então imagina fazer isso pela sua audiência.
 
-Se você cria conteúdo e quer testar isso, deixa **INFLUENCER** aqui nos comentários. A gente marca uma reunião e explica tudo — sem letra miúda. Se fizer sentido, aí sim vem o contrato.
+Comente **INFLUENCER** abaixo.
+
+MUDE a história de endividamento do seu país.
 
 ---
 
@@ -38,4 +40,4 @@ Se você cria conteúdo e quer testar isso, deixa **INFLUENCER** aqui nos coment
 
 ---
 
-*Foto de capa: Mochammad  Algi, via Pexels (Pexels License (uso comercial liberado, crédito recomendado)).*
+*Foto de capa: Long Chung, via Unsplash (Unsplash License (uso comercial liberado, crédito recomendado)).*

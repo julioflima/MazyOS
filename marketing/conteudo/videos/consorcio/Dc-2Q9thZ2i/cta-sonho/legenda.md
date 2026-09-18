@@ -26,7 +26,13 @@ Se você tem uma carta e nunca pensou nesse cenário, não há nada perdido.
 
 Janelas de liquidez abrem mais de uma vez — e agora você sabe reconhecer a próxima.
 
-Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mando de graça o material que explica o consórcio do começo ao fim. Sem compromisso nenhum.
+Gostou? Fez sentido?
+
+Então imagina começar hoje.
+
+Comente **SONHO** abaixo.
+
+MUDE a história de endividamento da sua família.
 
 ---
 
@@ -34,4 +40,4 @@ Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mand
 
 ---
 
-*Foto de capa: Ahmet Polat, via Pexels (Pexels License (uso comercial liberado, crédito recomendado)).*
+*Foto de capa: Hudson Graves, via Unsplash (Unsplash License (uso comercial liberado, crédito recomendado)).*

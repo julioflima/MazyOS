@@ -5,7 +5,7 @@
     "anos"
   ],
   "subtitulo": "Sobre o que se perde acreditando em coisas simpáticas →",
-  "busca": "family talking around dinner table advice",
+  "busca": "family portrait 1950s close photograph",
   "tags": [
     "mitos",
     "conselhos"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "topo",
-  "capa": "04-pexels.jpg"
+  "capa": "02-unsplash.jpg",
+  "cta_curto": false
 }

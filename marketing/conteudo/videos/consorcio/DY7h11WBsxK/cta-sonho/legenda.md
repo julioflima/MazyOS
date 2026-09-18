@@ -26,7 +26,13 @@ Se o melhor momento já passou, tudo bem. Ele passou para quase todo mundo.
 
 O segundo melhor continua disponível, e ele não exige que a sua vida esteja perfeita para começar.
 
-Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mando de graça o material que explica o consórcio do começo ao fim. Sem compromisso nenhum.
+Gostou? Fez sentido?
+
+Então imagina começar hoje.
+
+Comente **SONHO** abaixo.
+
+MUDE a história de endividamento da sua família.
 
 ---
 

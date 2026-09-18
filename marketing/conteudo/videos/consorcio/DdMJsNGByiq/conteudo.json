@@ -5,7 +5,7 @@
     "virar caixa"
   ],
   "subtitulo": "Sobre patrimônio parado em negócio que precisa de fôlego →",
-  "busca": "large industrial warehouse building exterior",
+  "busca": "commercial building storefront street business",
   "tags": [
     "empresario",
     "capitaldegiro"
@@ -33,5 +33,7 @@
     ]
   ],
   "logo": "topo",
-  "capa": "21-pexels.jpg"
+  "capa": "09-unsplash.jpg",
+  "capa_pos": "center 35%",
+  "cta_curto": true
 }

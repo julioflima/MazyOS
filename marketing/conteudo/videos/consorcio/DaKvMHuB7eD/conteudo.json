@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "01-wikimedia.jpg"
+  "capa": "01-wikimedia.jpg",
+  "cta_curto": false
 }

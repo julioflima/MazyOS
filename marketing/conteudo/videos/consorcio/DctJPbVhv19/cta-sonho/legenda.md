@@ -26,7 +26,13 @@ Se os seus pais não têm nada acumulado, isso não é falha de ninguém.
 
 Quase nenhuma geração anterior teve as ferramentas que existem hoje — e usá-las agora ainda chega a tempo.
 
-Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mando de graça o material que explica o consórcio do começo ao fim. Sem compromisso nenhum.
+Gostou? Fez sentido?
+
+Então imagina começar hoje.
+
+Comente **SONHO** abaixo.
+
+MUDE a história de endividamento da sua família.
 
 ---
 
@@ -34,4 +40,4 @@ Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mand
 
 ---
 
-*Foto de capa: Alex Green, via Pexels (Pexels License (uso comercial liberado, crédito recomendado)).*
+*Foto de capa: Ivan Kazlouskij, via Unsplash (Unsplash License (uso comercial liberado, crédito recomendado)).*

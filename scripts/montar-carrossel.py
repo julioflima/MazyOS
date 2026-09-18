@@ -45,7 +45,7 @@ def foot(n):
     return f'  <div class="foot"><img src="{LOGO}" /><div class="counter">{n:02d}</div></div>'
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from ctas import CTAS
+from ctas import CTAS, CTA_CURTO
 
 CSS = '''  :root{--azul-accent:#6FB4E8;--dourado:#BB842E;--off:#FAFAF7;
     --muted:rgba(250,250,247,.55);--border:rgba(255,255,255,.12)}
@@ -75,7 +75,7 @@ CSS = '''  :root{--azul-accent:#6FB4E8;--dourado:#BB842E;--off:#FAFAF7;
   /* Tratamento da foto — escolhido POR CARROSSEL no conteudo.json, campo
      "tratamento". Filtro igual nas 57 vira template e se entrega como
      programado (Julio, 18/09/26); o feed do Lord varia de peça pra peça. */
-  .capa .foto{position:absolute;inset:0;background-size:cover;background-position:center top}
+  .capa .foto{position:absolute;inset:0;background-size:cover}
   .t-leve  .foto{filter:sepia(.20) saturate(.88) contrast(1.04) brightness(.98)}
   .t-forte .foto{filter:sepia(.42) saturate(.72) contrast(1.10) brightness(.95) hue-rotate(-8deg)}
   .t-pb    .foto{filter:grayscale(1) contrast(1.12) brightness(.96)}
@@ -88,11 +88,10 @@ CSS = '''  :root{--azul-accent:#6FB4E8;--dourado:#BB842E;--off:#FAFAF7;
   .capa .vinheta{position:absolute;inset:0;z-index:1;opacity:0;
     background:radial-gradient(ellipse at center,transparent 45%,rgba(0,0,0,.55) 100%)}
   .capa .capa-inner{position:relative;padding:72px;display:flex;flex-direction:column;gap:34px}
-  /* Tipografia editorial: serifada em caixa baixa, como o Lord. Caixa alta e
-     peso 900 liam como propaganda. */
-  .capa h1{font-family:'Lora',serif;font-size:66px;font-weight:400;line-height:1.26;letter-spacing:-.005em}
-  .capa h1 i{font-style:italic}
-  .capa .sub{font-size:28px;font-weight:400;color:rgba(255,255,255,.72);letter-spacing:-.005em;line-height:1.4}
+  /* Caixa alta em peso 900, quebrada em linhas (Julio, 18/09/26: a serifada
+     fina deixou a peça sem peso — o bold é o que dá presença no feed). */
+  .capa h1{font-size:92px;font-weight:900;line-height:1.02;letter-spacing:-.035em;text-transform:uppercase}
+  .capa .sub{font-size:34px;font-weight:400;color:rgba(250,250,247,.82);letter-spacing:-.01em}
   .capa .foot{border-top:none;padding-top:8px}
   .logo-top{position:absolute;top:64px;left:72px;height:52px;z-index:2}
   .capa.logo-topo .foot img{visibility:hidden}
@@ -115,22 +114,27 @@ const path = require('path');
 })();
 '''
 
-for nome, cta in CTAS.items():
+for nome, cta_padrao in CTAS.items():
+    cta = {**cta_padrao, **CTA_CURTO.get(nome, {})} if c.get('cta_curto') else cta_padrao
     dest = os.path.join(PASTA, nome)
     os.makedirs(dest, exist_ok=True)
-    capa_bg = (f"linear-gradient(to bottom,transparent 42%,rgba(0,0,0,.55) 70%,rgba(0,0,0,.93) 100%),"
+    capa_bg = (f"linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.35) 42%,rgba(0,0,0,.94) 86%),"
                f"url('../capa.jpg')" if TEM_CAPA else
                "linear-gradient(to bottom,rgba(0,0,0,.25),rgba(0,0,0,.9)),"
                "repeating-linear-gradient(135deg,#242a30 0 26px,#1d2227 26px 52px)")
     topo = c.get('logo','topo') == 'topo'
+    # capa_pos: sobe ou desce o recorte da foto dentro do quadro. O título
+    # ocupa o terço de baixo — se o assunto cair ali, ele some (Julio, 18/09).
+    # "center 20%" puxa a imagem para cima e traz o assunto para a área limpa.
+    pos = c.get('capa_pos', 'center top')
     trat = c.get('tratamento', 'leve')   # nenhum | leve | forte | pb
     slides = [f'''<div class="slide capa t-{trat}{' logo-topo' if topo else ''}">
-  <div class="foto" style="background-image:{capa_bg}"></div>
+  <div class="foto" style="background-image:{capa_bg};background-position:{pos}"></div>
   <div class="grao"></div>
   <div class="vinheta"></div>
   <img class="logo-top" src="{LOGO}" />
   <div class="capa-inner">
-    <h1>{c.get('titulo_html') or html.escape(' '.join(c['titulo']))}</h1>
+    <h1>{'<br/>'.join(html.escape(l) for l in c['titulo'])}</h1>
     <div class="sub">{html.escape(c['subtitulo']).replace(' →','&nbsp;→')}</div>
 {foot(1)}
   </div>
@@ -148,7 +152,9 @@ for nome, cta in CTAS.items():
     for bloco in ('convite','fecho'):
         n += 1
         corpo = '\n    '.join(cta[bloco])
-        gap = ' style="gap:28px"' if bloco == 'convite' else ' style="gap:32px"'
+        # Respiro maior entre as frases do CTA (Julio, 18/09/26): é o bloco
+        # onde cada linha precisa ser lida sozinha, não em bloco corrido.
+        gap = ' style="gap:44px"' if bloco == 'convite' else ' style="gap:50px"'
         slides.append(f'<div class="slide">\n{head()}\n  <div class="body"{gap}>\n'
                       f'    {corpo}\n  </div>\n{foot(n)}\n</div>')
 

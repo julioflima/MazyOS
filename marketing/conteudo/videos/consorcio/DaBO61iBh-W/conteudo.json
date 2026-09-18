@@ -5,7 +5,7 @@
     "para chegar"
   ],
   "subtitulo": "Sobre sorteio, lance e a diferença entre sorte e escolha →",
-  "busca": "forked road splitting two directions aerial forest",
+  "busca": "highway fork road splitting aerial",
   "tags": [
     "contemplacao",
     "lance"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "06-pexels.jpg"
+  "capa": "01-unsplash.jpg",
+  "cta_curto": false
 }

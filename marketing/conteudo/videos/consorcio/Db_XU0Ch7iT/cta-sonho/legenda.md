@@ -26,7 +26,13 @@ Se você acreditou em alguma dessas, é porque elas são repetidas por pessoas q
 
 Rever uma ideia antiga não é sinal de que você estava errado. É sinal de que continuou prestando atenção.
 
-Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mando de graça o material que explica o consórcio do começo ao fim. Sem compromisso nenhum.
+Gostou? Fez sentido?
+
+Então imagina começar hoje.
+
+Comente **SONHO** abaixo.
+
+MUDE a história de endividamento da sua família.
 
 ---
 
@@ -34,4 +40,4 @@ Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mand
 
 ---
 
-*Foto de capa: damla selen demir, via Pexels (Pexels License (uso comercial liberado, crédito recomendado)).*
+*Foto de capa: Ahmet Almaz, via Unsplash (Unsplash License (uso comercial liberado, crédito recomendado)).*

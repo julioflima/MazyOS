@@ -5,7 +5,7 @@
     "em lembranças"
   ],
   "subtitulo": "Sobre o que sobra depois que a viagem acaba →",
-  "busca": "travel souvenirs photos suitcase memories",
+  "busca": "box of old photographs memories documentary",
   "tags": [
     "disciplina",
     "comportamento"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "topo",
-  "capa": "02-pexels.jpg"
+  "capa": "03-unsplash.jpg",
+  "cta_curto": true
 }

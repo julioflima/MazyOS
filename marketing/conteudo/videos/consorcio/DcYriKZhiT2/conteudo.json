@@ -5,7 +5,7 @@
     "depois o bem"
   ],
   "subtitulo": "Sobre a ordem que quase todo mundo inverte →",
-  "busca": "person planning finances calculator notebook desk",
+  "busca": "accountant desk ledger 1950s photograph",
   "tags": [
     "planejamento",
     "negociacao"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "topo",
-  "capa": "05-pexels.jpg"
+  "capa": "03-unsplash.jpg",
+  "cta_curto": true
 }

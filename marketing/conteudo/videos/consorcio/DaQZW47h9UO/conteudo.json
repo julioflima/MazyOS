@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "02-unsplash.jpg"
+  "capa": "02-unsplash.jpg",
+  "cta_curto": false
 }

@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "topo",
-  "capa": "06-pexels.jpg"
+  "capa": "06-pexels.jpg",
+  "cta_curto": false
 }

@@ -5,7 +5,7 @@
     "sem saber"
   ],
   "subtitulo": "Sobre o juro que não se chama juro →",
-  "busca": "hand giving cash money to another hand close up",
+  "busca": "hand giving banknotes close up bright",
   "tags": [
     "juros",
     "educacaofinanceira"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "07-pexels.jpg"
+  "capa": "01-unsplash.jpg",
+  "cta_curto": false
 }

@@ -5,7 +5,7 @@
     "por mês"
   ],
   "subtitulo": "Sobre o que realmente está caro nessa conta →",
-  "busca": "restaurant bill check on dinner table",
+  "busca": "restaurant table setting close up 1960s",
   "tags": [
     "parcela",
     "simulacao"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "03-pexels.jpg"
+  "capa": "02-unsplash.jpg",
+  "cta_curto": false
 }

@@ -5,7 +5,7 @@
     "resultado"
   ],
   "subtitulo": "Sobre confundir o instrumento com o que ele constrói →",
-  "busca": "craftsman hand tools workshop bench",
+  "busca": "craftsman workshop hands tools documentary",
   "tags": [
     "prosperidade",
     "administracao"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "08-pexels.jpg"
+  "capa": "06-unsplash.jpg",
+  "cta_curto": false
 }

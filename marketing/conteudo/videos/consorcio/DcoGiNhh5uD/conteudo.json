@@ -4,7 +4,7 @@
     "si mesmo"
   ],
   "subtitulo": "Sobre a operação entre pessoa física e jurídica →",
-  "busca": "businessman reflection in mirror office",
+  "busca": "man reflection mirror documentary portrait",
   "tags": [
     "pfpj",
     "estrutura"
@@ -32,5 +32,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "04-pexels.jpg"
+  "capa": "01-unsplash.jpg",
+  "cta_curto": false
 }

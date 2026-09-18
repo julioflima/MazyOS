@@ -5,7 +5,7 @@
     "que se compara"
   ],
   "subtitulo": "Sobre a pergunta que só tem resposta com contexto →",
-  "busca": "brass balance scale weighing comparison",
+  "busca": "balance scale pans close up weighing",
   "tags": [
     "comparacao",
     "decisao"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "03-pexels.jpg"
+  "capa": "01-unsplash.jpg",
+  "cta_curto": true
 }

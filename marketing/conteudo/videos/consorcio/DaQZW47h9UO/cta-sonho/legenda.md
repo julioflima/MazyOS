@@ -26,7 +26,13 @@ Se você só resolveu correndo até hoje, foi assim para quase todo mundo.
 
 A pressa não é defeito de caráter. É só o resultado de não ter começado antes — e começar continua disponível.
 
-Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mando de graça o material que explica o consórcio do começo ao fim. Sem compromisso nenhum.
+Gostou? Fez sentido?
+
+Então imagina a chave na sua mão, sem um centavo de juro no caminho. O que trava a maioria não é falta de dinheiro. É não saber como funciona.
+
+Se quiser entender, comente **SONHO** abaixo. Eu te mando o material que explica tudo, do começo ao fim, de graça.
+
+MUDE a história de endividamento da sua família.
 
 ---
 

@@ -141,3 +141,99 @@ No `conteudo.json` o campo `tratamento` aceita:
 
 Regra de grade: **não repetir o mesmo tratamento em peças vizinhas** no
 calendário de publicação.
+
+## A tipografia da capa é bold em caixa alta (Julio, 18/09/26)
+
+Testamos serifada em caixa baixa, imitando o Lord. Julio rejeitou: "está muito
+diferente disso, mude todos para que a capa seja nesse estilo, com bold e não
+apenas uma frase solta".
+
+**O título da capa é Inter 900, caixa alta, quebrado em 2–4 linhas curtas.**
+Não é uma frase corrida. O peso é o que dá presença no feed — a serifada fina
+esvaziou a peça.
+
+Do Lord seguimos a *fotografia* e o *tom do texto*, não a tipografia. Essa
+distinção estava confusa e agora está resolvida: o que se copia é o olhar, não
+a fonte.
+
+O filtro vintage, esse sim, ficou — foi ganho real.
+
+## A foto evoca um mundo, não ilustra a tese (Julio, 18/09/26)
+
+"As fotos das capas estão muito mercantilistas, tem que ser algo mais
+esotérico."
+
+Erro que estava sendo cometido: ilustrar o argumento ao pé da letra — dinheiro
+na mão para falar de juro, etiqueta de preço para falar de valor, calculadora
+para falar de planejamento, porta para falar de escolha. Isso lê como banco,
+não como revista.
+
+No Lord a imagem carrega **atmosfera**, não explicação:
+
+| Manchete | Foto |
+|---|---|
+| A arte de amar aquilo que você já possui | casal numa Vespa |
+| Como ter bom gosto, se o gosto é subjetivo? | homem numa sala dourada |
+| O luxo que você não conhece | homem de terno num jardim |
+| Nem tudo que demora está atrasado | *não* seria uma uva madurando |
+
+**Regra:** a foto estabelece o mundo de quem lê — elegância, tempo, viagem,
+arquitetura, retrato, cena de vida — e o título faz o trabalho de ideia. A
+imagem não precisa conter o objeto citado no título.
+
+Isso **revoga** a regra anterior de "se o título cita um objeto, ele aparece na
+foto". Aquela regra veio de um caso específico (carro) e generalizou mal.
+
+Vocabulário para minerar: retrato de época, interior clássico, arquitetura,
+viagem, carro antigo, cerimônia, mesa posta, cidade, mar, gente bem vestida —
+e não objeto financeiro.
+
+## Dinheiro se retrata como old money (Julio, 18/09/26)
+
+"Quando falar de dinheiro use o vintage, old money, vitoriano. Não é chic o
+modernismo idiota."
+
+Riqueza na Multiplic **não** é apartamento minimalista, vidro, LED embutido,
+sala de decoradora. Isso lê como catálogo de imobiliária.
+
+Riqueza é **patrimônio herdado e com pátina**:
+
+- biblioteca com estante de madeira, lombadas antigas
+- sala de estar clássica, tapete persa, lareira, quadro a óleo
+- clube, salão, escadaria, pé-direito alto, moldura de gesso
+- alfaiataria, relógio antigo, mesa posta com prata
+- carro clássico, casa de campo, cavalo, vela, golfe
+- retrato de gente bem vestida em ambiente antigo
+
+Vocabulário de mineração: *victorian, edwardian, old money, manor, estate,
+library, drawing room, gentlemen's club, tailoring, heritage, classic car,
+oil painting, chandelier, mahogany*.
+
+Isso vale para todo tema de patrimônio, investimento, alavancagem e herança —
+que é a maior parte dos 57.
+
+## Excesso de céu é o erro mais frequente
+
+Julio, 18/09/26, apontando um padrão nas capas: *"mostre mais o imóvel e menos
+o céu, vejo muito isso nas fotos por aqui, excesso de céu"*.
+
+Plano aberto com céu vazio ocupando metade ou mais do quadro é o defeito que
+mais se repetiu. Somado ao gradiente de baixo, sobra uma faixa fina no meio
+onde o assunto tem que caber — e ele some.
+
+**Preferir enquadramento fechado, com o assunto preenchendo o quadro.** Céu,
+parede lisa e chão entram como respiro, não como protagonista. Na dúvida entre
+duas fotos, escolher a mais fechada.
+
+## O assunto tem que ficar acima da faixa de texto
+
+Julio, 18/09/26, sobre a capa do boi arando: "n dá pra ver o boi direito".
+
+O título ocupa o terço inferior e o gradiente escurece dali para baixo. Se o
+assunto da foto estiver nessa faixa, ele some. **Escolher enquadramento em que
+o assunto esteja nos 55% de cima**, deixando a parte de baixo para céu, parede,
+chão ou qualquer área calma.
+
+Vale também para legibilidade: a capa precisa ser reconhecível em meio segundo
+de rolagem. Bonita e ilegível não serve — foi o que derrubou as capas escuras
+demais (mão com dinheiro, galpão industrial).

@@ -5,7 +5,7 @@
     "diferentes"
   ],
   "subtitulo": "Sobre o que os números mostram quando ficam lado a lado →",
-  "busca": "two identical houses side by side street",
+  "busca": "identical row houses street documentary",
   "tags": [
     "numeros",
     "financiamento"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "rodape",
-  "capa": "22-pexels.jpg"
+  "capa": "03-unsplash.jpg",
+  "cta_curto": false
 }

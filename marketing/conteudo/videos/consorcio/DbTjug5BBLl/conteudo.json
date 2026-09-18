@@ -5,7 +5,7 @@
     "mesmo"
   ],
   "subtitulo": "Sobre o que decide o preço de uma carta contemplada →",
-  "busca": "price tags labels market stall",
+  "busca": "price tags labels close up",
   "tags": [
     "cartacontemplada",
     "mercado"
@@ -33,5 +33,6 @@
     ]
   ],
   "logo": "topo",
-  "capa": "12-pexels.jpg"
+  "capa": "09-unsplash.jpg",
+  "cta_curto": false
 }

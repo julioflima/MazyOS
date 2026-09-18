@@ -26,7 +26,13 @@ Se você financiou antes de conhecer essa possibilidade, foi assim para quase to
 
 O contrato que você assinou não precisa ser o contrato com que você termina.
 
-Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mando de graça o material que explica o consórcio do começo ao fim. Sem compromisso nenhum.
+Gostou? Fez sentido?
+
+Então imagina a chave na sua mão, sem um centavo de juro no caminho. O que trava a maioria não é falta de dinheiro. É não saber como funciona.
+
+Se quiser entender, comente **SONHO** abaixo. Eu te mando o material que explica tudo, do começo ao fim, de graça.
+
+MUDE a história de endividamento da sua família.
 
 ---
 
@@ -34,4 +40,4 @@ Se quiser entender como funciona, deixa **SONHO** aqui nos comentários. Te mand
 
 ---
 
-*Foto de capa: RDNE Stock project, via Pexels (Pexels License (uso comercial liberado, crédito recomendado)).*
+*Foto de capa: Matt Clark, via Unsplash (Unsplash License (uso comercial liberado, crédito recomendado)).*

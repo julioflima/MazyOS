@@ -37,3 +37,18 @@ __pycache__/
 *.pyc
 .mineracao.lock
 .emandamento
+
+# Vídeo NUNCA vai pro repositório (regra do Julio). O lugar de mídia é
+# /Users/juliolima/Documents/media/multiplic/consorcios — o repo é de
+# código e texto. Um mp4 de 42 MB no histórico não sai mais de lá.
+*.mp4
+*.wav
+*.mov
+
+# Intermediários da esteira de vídeo: cenas renderizadas, mix de áudio,
+# plano de tempo. Tudo isso se regera a partir do conteudo.json e das
+# imagens escolhidas.
+marketing/conteudo/videos/**/podcast*/
+marketing/conteudo/videos/**/video/
+marketing/conteudo/videos/**/cenas/[0-9]*/
+

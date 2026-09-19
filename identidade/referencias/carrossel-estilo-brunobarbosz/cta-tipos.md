@@ -70,3 +70,14 @@ Texto completo em `cta-influencer.md`.
 ## Pendências
 
 - [ ] Julio aprovar o texto do CTA `SONHO` (ver `cta-sonho.md`)
+
+## Primeiro comentário = CTA curta (Julio, 18/09/26)
+
+Ao publicar (GHL, campo `followUpComment`), o **primeiro comentário é sempre
+a CTA curta** — nunca crédito de foto, nunca hashtag extra.
+
+- SONHO: *"Comente SONHO aqui e eu te mando o material que explica tudo, de graça."*
+- INFLUENCER: *"Comente INFLUENCER aqui e a gente marca vinte minutos pra conversar."*
+
+Motivo: o primeiro comentário aparece antes de qualquer outro e é o lugar de
+maior conversão da peça — quem chegou até ali já leu tudo e está decidindo.

@@ -21,6 +21,7 @@ CTAS = {
      'Se quiser entender, comente **SONHO** abaixo. Eu te mando o material que '
      'explica tudo, do começo ao fim, de graça.\n\n'
      'MUDE a história de endividamento da sua família.'),
+   'cta_curto': 'Comente SONHO aqui e eu te mando o material que explica tudo, de graça.',
    'hashtags': ['#consorcio','#casapropria','#planejamentofinanceiro','#educacaofinanceira',
      '#consorcioimobiliario','#sairdoaluguel','#primeiroimovel','#organizacaofinanceira',
      '#patrimonio','#cartadecredito','#multiplic','#fortaleza'],
@@ -41,6 +42,7 @@ CTAS = {
      'Se te tocou, comente **INFLUENCER** abaixo. Vinte minutos comigo e você '
      'entende tudo — entender de consórcio é comigo.\n\n'
      'MUDE a história de endividamento do seu país.'),
+   'cta_curto': 'Comente INFLUENCER aqui e a gente marca vinte minutos pra conversar.',
    'hashtags': ['#consorcio','#parceria','#criadordeconteudo','#rendaextra','#monetizacao',
      '#influencerdigital','#educacaofinanceira','#creatoreconomy','#empreendedorismo',
      '#indicacao','#multiplic','#fortaleza'],

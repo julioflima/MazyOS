@@ -1,0 +1,14 @@
+{
+  "voz_id": "lWq4KDY8znfkV0DrK8Vb",
+  "modelo": "eleven_multilingual_v2",
+  "formato": "1080x1920 (9:16)",
+  "fps": 30,
+  "nota": "Um áudio por slide. A duração da cena é a duração do áudio dela — sincronia sem alinhamento manual.",
+  "vozes_descartadas": [
+    "iKgyxqVhOshkX5YwpPrK",
+    "VNaz9wbhLsh3lLuHzAVP",
+    "lWq4KDY8znfkV0DrK8Vb",
+    "x3mAOLD9WzlmrFCwA1S3"
+  ],
+  "voz_escolhida": "lWq4KDY8znfkV0DrK8Vb — escolhida por Julio em 18/09/26"
+}

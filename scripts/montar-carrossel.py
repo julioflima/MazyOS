@@ -93,6 +93,12 @@ CSS = '''  :root{--azul-accent:#6FB4E8;--dourado:#BB842E;--off:#FAFAF7;
   .capa h1{font-size:92px;font-weight:900;line-height:1.02;letter-spacing:-.035em;text-transform:uppercase}
   .capa .sub{font-size:34px;font-weight:400;color:rgba(250,250,247,.82);letter-spacing:-.01em}
   .capa .foot{border-top:none;padding-top:8px}
+  /* Marca do CTA INFLUENCER: filete dourado curto logo acima do título
+     (Julio, 18/09/26). Escolhido entre seta, logo, filete e ponto por ser o
+     único que ainda se lê na miniatura do feed. Encostado no título: solto
+     mais para cima ele lia como elemento avulso. */
+  .capa.marcado .capa-inner:before{content:'';display:block;width:96px;height:6px;
+    background:var(--dourado);border-radius:3px;margin-bottom:-12px}
   .logo-top{position:absolute;top:64px;left:72px;height:52px;z-index:2}
   .capa.logo-topo .foot img{visibility:hidden}
   .capa:not(.logo-topo) .logo-top{display:none}'''
@@ -128,7 +134,8 @@ for nome, cta_padrao in CTAS.items():
     # "center 20%" puxa a imagem para cima e traz o assunto para a área limpa.
     pos = c.get('capa_pos', 'center top')
     trat = c.get('tratamento', 'leve')   # nenhum | leve | forte | pb
-    slides = [f'''<div class="slide capa t-{trat}{' logo-topo' if topo else ''}">
+    marca = ' marcado' if nome == 'cta-influencer' else ''
+    slides = [f'''<div class="slide capa t-{trat}{' logo-topo' if topo else ''}{marca}">
   <div class="foto" style="background-image:{capa_bg};background-position:{pos}"></div>
   <div class="grao"></div>
   <div class="vinheta"></div>

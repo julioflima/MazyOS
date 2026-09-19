@@ -40,15 +40,8 @@ class EmSerie:
     def __exit__(self, *e):
         fcntl.flock(self.f, fcntl.LOCK_UN); self.f.close()
 
-# Áudio mora em media/, não no repositório: as trilhas somavam 9,6 MB e
-# mídia não vai pro git (regra do Julio). MEDIA_AUDIO centraliza o caminho
-# pra não haver dois lugares dizendo onde o arquivo está.
-MEDIA_AUDIO = '/Users/juliolima/Documents/media/multiplic/audio'
-TRILHAS = {'bluebird':    os.path.join(MEDIA_AUDIO, 'trilha-bluebird.mp3'),
-           'documentary': os.path.join(MEDIA_AUDIO, 'trilha-documentary.mp3')}
-for _nome, _p in TRILHAS.items():
-    if not os.path.exists(_p):
-        raise SystemExit(f'ERRO: trilha {_nome} não está em {_p}')
+TRILHAS = {'bluebird': os.path.join(RAIZ,'identidade/audio/trilha-bluebird.mp3'),
+           'documentary': os.path.join(RAIZ,'identidade/audio/trilha-documentary.mp3')}
 PARAMS = ['--cta=cta-influencer','--voz=5p4THmLc2S6kXKO1pOM5','--ritmo=1.2']
 
 dirs = sorted(d for d in os.listdir(VID) if os.path.isdir(os.path.join(VID,d)))

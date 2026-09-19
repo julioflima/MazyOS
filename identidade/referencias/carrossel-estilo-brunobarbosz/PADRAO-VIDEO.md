@@ -234,3 +234,36 @@ documentou.
 
 Os CSVs de vídeo gerados antes de 19/09/26 saíram com as colunas 27-29
 vazias. Conferir antes de importar.
+
+## Paralelismo: o teto é a API, não o processador
+
+Regra do Julio (19/09/26): *"minere as paginas em serie para n expire, o
+limite dela não é o core é o limite que as paginas aguentam via API."*
+
+**Mineração é sempre em série**, mesmo com vários processos rodando. Há uma
+trava de arquivo (`.mineracao.lock`, `flock` exclusivo) em `lote-videos.py`:
+se dois processos tentarem minerar, o segundo espera a vez. Combinado
+quebra; trava não.
+
+Medido em 19/09/26 com 3 termos:
+
+| | tempo | resultado |
+|---|---|---|
+| série | 21,0s | 6, 5 e 6 imagens |
+| paralelo | 4,4s | **429 do Openverse**, uma cena com 3 imagens |
+
+5x mais rápido e com menos imagem. Velocidade que custa imagem não é ganho.
+
+**O que pode correr junto**, porque não toca as fontes de imagem:
+
+| Etapa | Paralelizável? | Por quê |
+|---|---|---|
+| Minerar | **NÃO** | cota horária do Wikimedia/Unsplash/Openverse |
+| Narrar (ElevenLabs) | com cuidado | cota é de caracteres, mas há teto de concorrência no plano Creator |
+| Render Remotion | pouco | já usa vários núcleos sozinho |
+| Montagem ffmpeg | pouco | idem |
+| Verificação | sim | é só ffmpeg medindo |
+
+A máquina tem 10 núcleos, e uma rodada sozinha já deixa a carga em 4. Abrir
+três esteiras não triplica nada: só faz as etapas de CPU brigarem entre si
+enquanto a mineração, que é o gargalo real, continua em fila.

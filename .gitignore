@@ -35,3 +35,4 @@ marketing/conteudo/.render/
 # python
 __pycache__/
 *.pyc
+.mineracao.lock

@@ -17,13 +17,28 @@ monta a folha de conferência de imagem x texto, que ainda precisa de olho.
 
 Padrão em identidade/referencias/carrossel-estilo-brunobarbosz/PADRAO-VIDEO.md
 """
-import json, os, re, subprocess, sys
+import fcntl, json, os, re, subprocess, sys
 
 RAIZ = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 VID  = os.path.join(RAIZ,'marketing/conteudo/videos/consorcio')
 FASE = sys.argv[1] if len(sys.argv) > 1 else 'preparar'
 flag = lambda n,d: next((a.split('=',1)[1] for a in sys.argv if a.startswith(f'--{n}=')), d)
 DE, ATE = int(flag('de','1')), int(flag('ate','10'))
+
+# A mineração é SEMPRE em série, mesmo que existam vários processos.
+# O teto não é o processador — é o que as fontes aguentam por hora. Medido
+# em 19/09/26: 3 termos em paralelo ficam 5x mais rápidos (4,4s contra 21s)
+# e o Openverse devolve 429 em metade dos downloads. Velocidade que custa
+# imagem não é ganho. A trava garante isso mesmo com a esteira paralela.
+TRAVA = os.path.join(RAIZ, '.mineracao.lock')
+
+class EmSerie:
+    def __enter__(self):
+        self.f = open(TRAVA, 'w')
+        fcntl.flock(self.f, fcntl.LOCK_EX)     # espera a vez
+        return self
+    def __exit__(self, *e):
+        fcntl.flock(self.f, fcntl.LOCK_UN); self.f.close()
 
 TRILHAS = {'bluebird': os.path.join(RAIZ,'identidade/audio/trilha-bluebird.mp3'),
            'documentary': os.path.join(RAIZ,'identidade/audio/trilha-documentary.mp3')}
@@ -49,9 +64,10 @@ if FASE == 'preparar':
         for n, termo in t.items():
             destino = os.path.join(pasta,'cenas',n)
             if os.path.isdir(destino): continue
-            subprocess.run(['node',os.path.join(RAIZ,'scripts/minerar-imagens.js'),
-                            termo,f'--out={destino}','--n=5','--arquivo'],
-                           check=True, stdout=subprocess.DEVNULL)
+            with EmSerie():
+                subprocess.run(['node',os.path.join(RAIZ,'scripts/minerar-imagens.js'),
+                                termo,f'--out={destino}','--n=5','--arquivo'],
+                               check=True, stdout=subprocess.DEVNULL)
         print(f'{i:>3}. {vid} minerado')
     if faltando:
         print(f'\nSem termos de busca ({len(faltando)}): ' + ', '.join(faltando))

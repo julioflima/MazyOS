@@ -32,14 +32,28 @@ aqui se reinvestiga.
   ter liberado o recurso no perfil. **Ainda não verificado para a @izabelmultiplic
   — se não bater, nada disso funciona, em ferramenta nenhuma.**
 
-## A pista principal
+## RESOLVIDO — a rota existe
 
-O Metricool publica trial reel **via API**. Logo a Instagram Graph API expõe o
-recurso. Se for verdade, dá pra escrever um publicador próprio com um app Meta
-do Julio: automatizado, sem mensalidade, pela rota sancionada.
+**O parâmetro é `trial_params`**, enviado na criação do container de mídia
+(`POST /<IG_USER_ID>/media`), junto com `media_type=REELS` e `video_url`.
 
-Falta descobrir: qual o parâmetro exato na criação do container, quais
-permissões, se exige App Review, e se é limitado a parceiros aprovados.
+Campo interno: `graduation_strategy`, com dois valores possíveis:
+
+| Valor | O que faz |
+|---|---|
+| `MANUAL` | fica trial até alguém graduar no app |
+| `SS_PERFORMANCE` | o Instagram gradua sozinho se performar bem |
+
+**Usar `SS_PERFORMANCE`**: sobe como trial, e o que for bem chega aos
+seguidores automaticamente. Zero trabalho manual, que é o requisito do Julio.
+
+Ressalva registrada: a página oficial `IG User Media` **não lista** esse
+parâmetro (a lista alfabética pula de `share_to_feed` para `thumb_offset`).
+Mas três implementações independentes o documentam e usam. Existe; a
+documentação da Meta é que está incompleta. Confirmar no primeiro teste real.
+
+Graduar um trial já publicado **não** é exposto pela API — só no app. Por isso
+`SS_PERFORMANCE` importa: é a única graduação que acontece sem ninguém.
 
 ---
 
@@ -48,3 +62,27 @@ permissões, se exige App Review, e se é limitado a parceiros aprovados.
 ### 19/09/26 — abertura
 Mapeamento acima consolidado a partir da conversa. Investigação da API ainda
 não começou; é o próximo passo.
+
+### 19/09/26 — a rota encontrada
+
+`trial_params` confirmado por três fontes independentes. A automação é
+possível, sem ferramenta paga.
+
+**O que falta, e não é técnico:** acesso. Gerar o token exige autenticar numa
+conta com cargo na Página do Facebook e no Instagram da Multiplic.
+
+O Julio **não precisa** do código de verificação da dona da conta — isso seria
+entrar como ela. O certo é a Izabel adicioná-lo como administrador em
+`business.facebook.com` → Configurações → Pessoas, uma vez. Depois ele
+autentica com o próprio login e nunca mais depende do celular dela.
+
+Nota: isso já foi feito uma vez — o GHL publica no Instagram da Multiplic hoje,
+então alguém já completou esse OAuth.
+
+**Pendência que pode derrubar tudo:** trial reel exige 1.000+ seguidores na
+conta. Ainda não verificado para a @izabelmultiplic. Sem isso, nem
+`trial_params` nem ferramenta nenhuma funciona.
+
+**Próximo passo:** com o cargo concedido, escrever `scripts/publicar-trial.py`
+— cria o container com `trial_params`, aponta para o mp4 servido pelo ngrok,
+publica. Não executar nada sem o Julio autorizar.

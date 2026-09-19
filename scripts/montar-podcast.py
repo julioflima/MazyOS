@@ -8,18 +8,40 @@ CTA  = flag('cta','cta-sonho')
 SUFIXO = flag('sufixo','')
 RAIZ = os.path.abspath(os.path.join(os.path.dirname(__file__),'..'))
 REM  = os.path.join(RAIZ,'video-capa'); PUB = os.path.join(REM,'public')
+
+# O public/ do Remotion é área compartilhada: os nomes são sempre os mesmos
+# (cena-01.jpg, aud-01.mp3). Duas montagens ao mesmo tempo escreveriam uma
+# por cima da outra e um vídeo sairia com a imagem do outro — e, desde que a
+# limpeza existe, uma apagaria os arquivos da outra no meio do render.
+# Com a esteira rodando de 30 em 30 minutos isso deixou de ser hipótese.
+# A trava faz a segunda montagem esperar a vez (Julio, 19/09/26).
+import fcntl
+_trava = open(os.path.join(RAIZ, '.render.lock'), 'w')
+fcntl.flock(_trava, fcntl.LOCK_EX)
 plano = json.load(open(os.path.join(PASTA,'podcast'+SUFIXO,'plano.json')))
 os.makedirs(PUB, exist_ok=True)
-shutil.copy2(os.path.join(RAIZ,'identidade/logo-branco.png'), os.path.join(PUB,'logo-branco.png'))
+# O Remotion só lê asset de dentro do public/ dele, então a esteira precisa
+# copiar a narração e a imagem de cada cena pra lá. São arquivos de passagem:
+# depois do render viram entulho. Registro o que ponho pra apagar no fim —
+# sem isso acumulavam 21 MB por vídeo dentro do repositório (Julio, 19/09/26).
+_copiados = []
+def _pra_public(origem, nome):
+    destino = os.path.join(PUB, nome)
+    shutil.copy2(origem, destino)
+    _copiados.append(destino)
+    return nome
+
+_pra_public(os.path.join(RAIZ,'identidade/logo-branco.png'), 'logo-branco.png')
 
 partes = []
 for c in plano:
     img = f"cena-{c['n']:02d}.jpg" if not c.get('carrossel') else f"cena-{c['n']:02d}.png"
-    shutil.copy2(c['img'], os.path.join(PUB, img))
-    aud = f"aud-{c['n']:02d}.mp3"; shutil.copy2(c['audio'], os.path.join(PUB, aud))
+    _pra_public(c['img'], img)
+    aud = f"aud-{c['n']:02d}.mp3"; _pra_public(c['audio'], aud)
     props = {'img':img,'audio':aud,'palavras':c['palavras'],'logo':'logo-branco.png',
              'carrossel':bool(c.get('carrossel')),'duracao':c['dur']}
     pj = os.path.join(PUB, f"_p{c['n']}.json"); json.dump(props, open(pj,'w'), ensure_ascii=False)
+    _copiados.append(pj)
     mp4 = os.path.join(PASTA,'podcast'+SUFIXO,f"cena-{c['n']:02d}.mp4")
     if c.get('capa'):
         cont = json.load(open(os.path.join(PASTA,'conteudo.json')))
@@ -33,8 +55,7 @@ for c in plano:
         sys.path.insert(0, os.path.join(RAIZ,'scripts'))
         from ctas import CTAS
         import re as _re
-        shutil.copy2(os.path.join(RAIZ,'identidade/equipe/izabel-avatar.png'),
-                     os.path.join(PUB,'izabel.png'))
+        _pra_public(os.path.join(RAIZ,'identidade/equipe/izabel-avatar.png'), 'izabel.png')
         linhas = []
         for bruto in CTAS[CTA]['fecho']:
             txt = _re.sub(r'\s+',' ',_re.sub(r'<[^>]+>','',bruto)).strip()
@@ -150,4 +171,10 @@ subprocess.run(['ffmpeg','-y']+[x for f,_ in partes for x in ('-i',f)]+
 subprocess.run(['ffmpeg','-y','-i',vid_mudo,'-i',aud_mix,'-map','0:v','-map','1:a',
     '-c:v','copy','-c:a','aac','-b:a','192k','-shortest',final], check=True, capture_output=True)
 print(f'  áudio conferido: {d_aud:.1f}s')
+# Limpa o que foi copiado pro Remotion. O vídeo já está montado; esses
+# arquivos não servem mais pra nada e não têm por que morar no repositório.
+for _f in _copiados:
+    try: os.path.exists(_f) and os.remove(_f)
+    except OSError: pass
+
 print(f"\ntotal calculado: {total:.1f}s\n{final}")

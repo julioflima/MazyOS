@@ -71,3 +71,4 @@ marketing/**/*.webp
 video-capa/public/
 video-capa/node_modules/
 
+.render.lock

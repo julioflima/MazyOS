@@ -44,16 +44,20 @@ Campo interno: `graduation_strategy`, com dois valores possíveis:
 | `MANUAL` | fica trial até alguém graduar no app |
 | `SS_PERFORMANCE` | o Instagram gradua sozinho se performar bem |
 
-**Usar `SS_PERFORMANCE`**: sobe como trial, e o que for bem chega aos
-seguidores automaticamente. Zero trabalho manual, que é o requisito do Julio.
+**Usar `MANUAL`** (decidido pelo Julio, 19/09/26): *"n quero subir
+automaticamente sempre tem q ficar no trial."* O vídeo fica trial
+indefinidamente e só sai de lá se alguém graduar no app — o que não vai
+acontecer. Os seguidores da conta nunca veem o conteúdo; só quem não segue.
+
+`SS_PERFORMANCE` foi descartado justamente por graduar sozinho.
 
 Ressalva registrada: a página oficial `IG User Media` **não lista** esse
 parâmetro (a lista alfabética pula de `share_to_feed` para `thumb_offset`).
 Mas três implementações independentes o documentam e usam. Existe; a
 documentação da Meta é que está incompleta. Confirmar no primeiro teste real.
 
-Graduar um trial já publicado **não** é exposto pela API — só no app. Por isso
-`SS_PERFORMANCE` importa: é a única graduação que acontece sem ninguém.
+Graduar um trial já publicado **não** é exposto pela API — só no app. Com
+`MANUAL` isso não é limitação nenhuma: a intenção é nunca graduar.
 
 ---
 
@@ -84,5 +88,6 @@ conta. Ainda não verificado para a @izabelmultiplic. Sem isso, nem
 `trial_params` nem ferramenta nenhuma funciona.
 
 **Próximo passo:** com o cargo concedido, escrever `scripts/publicar-trial.py`
-— cria o container com `trial_params`, aponta para o mp4 servido pelo ngrok,
-publica. Não executar nada sem o Julio autorizar.
+— cria o container com `media_type=REELS`, `video_url` apontando para o mp4
+servido pelo ngrok, e `trial_params` com `graduation_strategy=MANUAL`; depois
+publica o container. Não executar nada sem o Julio autorizar.

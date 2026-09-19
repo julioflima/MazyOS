@@ -64,3 +64,10 @@ marketing/**/*.webp
 # O que SE MANTÉM em marketing/conteudo/videos/: conteudo.json, roteiro.json,
 # legenda.md, carrossel.html, cenas/buscas.json, cenas/escolhidas.json e
 # credito-capa.json. É o que permite reconstruir qualquer peça.
+
+# Remotion: o CÓDIGO vai pro git (src/ define a aparência de todos os
+# vídeos). O que a esteira despeja lá para renderizar, não — são 21 MB de
+# áudio e imagem copiados por vídeo, regerados a cada rodada.
+video-capa/public/
+video-capa/node_modules/
+

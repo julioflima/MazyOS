@@ -46,7 +46,7 @@ carrossel. Todo o conteúdo passa a ser vídeo.
 - Sem fade de entrada na voz que chega; fade de 0,3s só na que morre.
 - **Efeito de teclado de 0,8s** no instante em que a palavra-chave é FALADA
   (tempo vindo do alinhamento do ElevenLabs, não fixo).
-  Arquivo: `identidade/audio/digitar.mp3`.
+  Arquivo: `media/multiplic/audio/digitar.mp3` (áudio não vai pro repositório).
 
 ## Movimento
 

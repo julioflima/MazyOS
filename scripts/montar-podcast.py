@@ -92,7 +92,8 @@ final = os.path.join(MEDIA, f"vd-{slug(titulo)}-{CTA.replace('cta-','')}-podcast
 # Efeito de digitação na cena final, no momento em que a palavra-chave
 # aparece — o CTA pede para comentar, o som reforça o gesto.
 quando_sfx = None
-SFX = os.path.join(RAIZ,'identidade/audio/digitar.mp3')
+# Áudio mora em media/, não no repositório (regra do Julio, 19/09/26).
+SFX = '/Users/juliolima/Documents/media/multiplic/audio/digitar.mp3'
 if os.path.exists(SFX):
     # O som entra quando a palavra é FALADA, não quando aparece na tela.
     # O tempo vem do alinhamento do ElevenLabs, que já está no plano.

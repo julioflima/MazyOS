@@ -64,3 +64,11 @@ marketing/**/*.webp
 # O que SE MANTÉM em marketing/conteudo/videos/: conteudo.json, roteiro.json,
 # legenda.md, carrossel.html, cenas/buscas.json, cenas/escolhidas.json e
 # credito-capa.json. É o que permite reconstruir qualquer peça.
+
+# Áudio é mídia: as trilhas somavam 9,6 MB. Moram em
+# /Users/juliolima/Documents/media/multiplic/audio
+*.mp3
+*.m4a
+*.aac
+identidade/audio/
+

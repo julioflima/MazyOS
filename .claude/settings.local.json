@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rtk ls *)",
+      "Bash(python3 scripts/estado-producao.py --proximos=3)",
+      "Bash(rtk find *)"
+    ]
+  }
+}

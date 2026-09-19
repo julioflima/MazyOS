@@ -164,6 +164,27 @@ CC BY-SA exigem atribuição na publicação.
 Todo slide de conteúdo tem **no mínimo dois parágrafos** com respiro entre
 eles. Bloco único de 5+ linhas é proibido — cansa e faz pular o slide.
 
+### Publicação
+
+Os carrosséis vão pro Instagram pelo GHL (Dara), em carga CSV. Agendamento
+padrão: **um carrossel por dia, todos os dias, às 15h**. Categoria `Teste`
+para CTA INFLUENCER e `Produção` para CTA SONHO. Primeiro comentário é sempre
+a CTA curta. Detalhes em
+`identidade/referencias/carrossel-estilo-brunobarbosz/publicacao-ghl.md`.
+
+### Vídeo vertical
+
+**Fonte da verdade: `identidade/referencias/carrossel-estilo-brunobarbosz/PADRAO-VIDEO.md`.**
+Ler antes de qualquer mudança — ele lista também o que já foi testado e
+reprovado.
+
+
+Os carrosséis também viram vídeo 9:16 com narração do ElevenLabs. As regras
+base — respiro antes e depois da fala, transição deslizante, narração literal,
+zoom só na capa — estão em
+`identidade/referencias/carrossel-estilo-brunobarbosz/video-regras.md`.
+Gerador: `scripts/gerar-video.py`.
+
 ### Linguagem (regra crítica)
 
 Seguir `_memoria/preferencias.md`. Em geral: frases naturais, sem jargão de marketing, sem corporativês. O público real raramente fala "ticket médio", "performance", "B2B". Falar como ele fala.

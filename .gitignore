@@ -52,3 +52,15 @@ marketing/conteudo/videos/**/podcast*/
 marketing/conteudo/videos/**/video/
 marketing/conteudo/videos/**/cenas/[0-9]*/
 
+# Imagem gerada também é mídia (regra do Julio, 19/09/26): os slides
+# renderizados eram 933 PNGs e 190 MB — 84% do repositório. São derivados:
+# saem do carrossel.html mais a imagem escolhida.
+# Os arquivos continuam no disco, onde os scripts esperam. Só não vão pro git.
+marketing/**/*.png
+marketing/**/*.jpg
+marketing/**/*.jpeg
+marketing/**/*.webp
+
+# O que SE MANTÉM em marketing/conteudo/videos/: conteudo.json, roteiro.json,
+# legenda.md, carrossel.html, cenas/buscas.json, cenas/escolhidas.json e
+# credito-capa.json. É o que permite reconstruir qualquer peça.

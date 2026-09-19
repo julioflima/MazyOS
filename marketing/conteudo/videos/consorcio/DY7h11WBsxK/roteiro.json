@@ -1,0 +1,37 @@
+{
+  "nota": "Versão falada, mais enxuta que o texto da tela. A narração desenvolve, o slide ancora.",
+  "cenas": [
+    {
+      "slide": "slide-01.png",
+      "fala": "@capa"
+    },
+    {
+      "slide": "slide-02.png",
+      "fala": "O melhor dia pra plantar uma árvore foi há vinte anos, e o segundo melhor é hoje. Essa frase esconde uma conta que quase ninguém faz: quanto custa o tempo que a gente passa decidindo."
+    },
+    {
+      "slide": "slide-03.png",
+      "fala": "Enquanto a gente adia, o imóvel sobe e o carro encarece. O que parecia cautela era atraso com nome bonito."
+    },
+    {
+      "slide": "slide-04.png",
+      "fala": "Economista chama isso de custo de oportunidade. É o preço de esperar, e ele não aparece em fatura nenhuma."
+    },
+    {
+      "slide": "slide-05.png",
+      "fala": "Quem começou há cinco anos não era mais corajoso. Só decidiu antes de precisar."
+    },
+    {
+      "slide": "slide-06.png",
+      "fala": "Se o melhor momento já passou, tudo bem. Passou pra quase todo mundo. O segundo melhor continua aí."
+    },
+    {
+      "slide": "slide-07.png",
+      "fala": "Casa própria, carro novo. Não é sobre ter o dinheiro todo, é sobre parar de precisar dele pra começar."
+    },
+    {
+      "slide": "slide-08.png",
+      "fala": "Comenta SONHO aqui embaixo e eu te mando o material que explica tudo, de graça."
+    }
+  ]
+}

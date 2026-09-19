@@ -53,10 +53,42 @@ if not N:
     falta = [d for d, est, _ in tudo if est != 'pronto']
     print(f'\nprontos {len(dirs)-len(falta)} de {len(dirs)}  |  faltam {len(falta)}')
 else:
-    fila = [(d, est, t) for d, est, t in tudo if est not in ('pronto','sem-conteudo')][:N]
+    # Com rodadas de 30 em 30 minutos, duas podem se sobrepor se uma
+    # estourar o tempo. Sem marcação elas pegariam os MESMOS vídeos e
+    # gastariam a cota das fontes de imagem duas vezes pela mesma coisa.
+    # Quem recebe um vídeo o marca; a marca vale 45 minutos.
+    import time
+    VALIDADE = 45 * 60
+    marca = lambda d: os.path.join(VID, d, '.emandamento')
+
+    def tomado(d):
+        m = marca(d)
+        if not os.path.exists(m):
+            return False
+        if time.time() - os.path.getmtime(m) > VALIDADE:
+            os.remove(m)          # rodada anterior morreu; libera
+            return False
+        return True
+
+    fila = []
+    for d, est, t in tudo:
+        if est in ('pronto', 'sem-conteudo') or tomado(d):
+            continue
+        fila.append((d, est, t))
+        if len(fila) == N:
+            break
+
     if not fila:
-        print('NADA A FAZER: todos os vídeos estão prontos.')
+        restantes = [d for d, est, _ in tudo if est not in ('pronto','sem-conteudo')]
+        if restantes:
+            print(f'NADA A FAZER AGORA: os {len(restantes)} restantes estão '
+                  'com outra rodada. Encerre sem fazer nada.')
+        else:
+            print('NADA A FAZER: todos os vídeos estão prontos.')
         sys.exit(0)
-    print(f'próximos {len(fila)}:')
+
+    for d, _, _ in fila:
+        open(marca(d), 'w').write(str(int(time.time())))
+    print(f'próximos {len(fila)} (marcados para esta rodada):')
     for d, est, t in fila:
         print(f'  {d}  [{est}]  {t}')

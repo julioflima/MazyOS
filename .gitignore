@@ -36,3 +36,4 @@ marketing/conteudo/.render/
 __pycache__/
 *.pyc
 .mineracao.lock
+.emandamento
